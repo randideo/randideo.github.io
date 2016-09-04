@@ -11,22 +11,10 @@ theme:
   gravatar: # Email MD5 hash
   description: "Words & Doodles" # used by search engines
 
-  # Header and footer text
-  header_text: >
-     <h1>What's New</h1>
-   
-   # Scripts
-  katex: true # Enable if using math markup
   
   # Google Drive CDN url
   images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
   
-  
-#COLLECTIONS
-collections:
-  comics: comics
-   output: true
-   permalink: /comics/:path/
 
 # BUILD 
 
