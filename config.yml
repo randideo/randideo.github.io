@@ -25,7 +25,7 @@ theme:
   
 #COLLECTIONS
 collections:
-  comics:
+  comics: comics
    output: true
 
 # BUILD 
