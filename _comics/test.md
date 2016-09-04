@@ -1,5 +1,5 @@
 ---
-layout: comic
+layout: comics
 title: Sample Comic
 categories: auto bio, random
 ---
