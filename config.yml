@@ -1,0 +1,48 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://randideo.com" # the base hostname & protocol for your site
+
+permalink: "/:title"
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: randideo
+  avatar: 
+  gravatar: # Email MD5 hash
+  description: "Words & Doodles" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h1>What's New</h1>
+   
+   # Scripts
+  katex: true # Enable if using math markup
+  
+  # Google Drive CDN url
+  images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
+  
+  
+#COLLECTIONS
+collections:
+  comics:
+   output: true
+
+# BUILD 
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "page:num"
