@@ -3,10 +3,6 @@ layout: default
 ---
 
 
-<ul>
-  {% for post in site.posts %}
-   
-     {{ site.posts }}
-  
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:3 %}
+... Show the post ...
+{% endfor %}
