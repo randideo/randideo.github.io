@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://randideo.com" # the base hostname & protocol for your site
-
 permalink: "/:title"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -27,6 +26,7 @@ theme:
 collections:
   comics: comics
    output: true
+   permalink: /comics/:path/
 
 # BUILD 
 
