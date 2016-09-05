@@ -1,9 +1,5 @@
-# SITE CONFIGURATION
 url: "http://randideo.com" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
-
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: randideo
+title: randideo
+markdown: kramdown
+highlighter: rouge
 
