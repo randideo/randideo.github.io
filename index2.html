@@ -5,7 +5,7 @@ layout: default
 
     {% for post in paginator.posts %}
    
-      <header>
+     
         <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
@@ -14,7 +14,7 @@ layout: default
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
-      </header>
+    
      
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">
@@ -24,20 +24,4 @@ layout: default
     {% endfor %}
 
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme_settings.str_prev }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme_settings.str_next }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
+ 
