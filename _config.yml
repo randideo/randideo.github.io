@@ -5,15 +5,11 @@ permalink: "/:title"
 theme:
   # Meta
   title: randideo
-  avatar: 
-  gravatar: # Email MD5 hash
   description: "Words & Doodles" # used by search engines
   
   # Google Drive CDN url
   images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
   
-
-
-# BUILD SETTINGS
+  # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
