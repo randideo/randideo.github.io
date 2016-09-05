@@ -566,6 +566,7 @@ text-decoration: none;
 .hentry-meta-top a:active, .hentry-meta-top a:hover {
 }
 .entry-title {
+font-family: Lusitana;
 font-weight: 700;
 font-size: 2em;
 line-height: 1;
