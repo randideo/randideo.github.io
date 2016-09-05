@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts %}
-... Show the post ...
-{% endfor %}
+{% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
