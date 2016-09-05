@@ -3,4 +3,4 @@ markdown: kramdown
 highlighter: rouge
   
 # Google Drive CDN url
-images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
+images: "https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/"
