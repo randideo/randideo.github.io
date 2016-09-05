@@ -8,7 +8,7 @@ search: false
 url: http://randideo.com
 
 #DISQUS
-layout: default
+layout: post
 comments: true
 # other options
 
