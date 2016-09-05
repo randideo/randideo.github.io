@@ -1,11 +1,7 @@
-# SITE CONFIGURATION
-permalink: "/:title"
-
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
   title: randideo
-  description: "Words & Doodles" # used by search engines
   
   
 # Google Drive CDN url
