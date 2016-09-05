@@ -1,7 +1,5 @@
 # SITE CONFIGURATION
 permalink: "/:title"
-markdown: kramdown
-highlighter: rouge
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
