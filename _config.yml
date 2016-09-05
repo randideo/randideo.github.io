@@ -1,4 +1,3 @@
-url: "http://randideo.com" # the base hostname & protocol for your site
 title: randideo
 markdown: kramdown
 highlighter: rouge
