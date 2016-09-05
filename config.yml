@@ -43,6 +43,9 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
+  
+  # Google Drive CDN url
+images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -70,6 +73,3 @@ sass:
   sass_dir: _sass
   style: :compressed
 gems: [jekyll-paginate]
-
-# Google Drive CDN url
-images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
