@@ -6,4 +6,6 @@ layout: default
     Posted {{ page.date | date: '%B %d, %Y' }}
   </header>
   <section class="entry-content">{{ content }}</section>
+  
+  <div align='center' style='font-size: 1.3em; padding: 20px;'><a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url + &quot;&amp;t=&quot; + data:post.title' style='color: #ccc;' target='_blank' title='Share On Facebook'><i class='fa fa-facebook' style='padding: 10px;'/></a><a expr:href='&quot;http://www.tumblr.com/share/link?url=&quot; + data:post.url + &quot;&amp;name=&quot; + data:post.title' style='color: #ccc;' target='_blank' title='Share On Tumblr'><i class='fa fa-tumblr' style='padding: 10px;'/></a><a expr:href='&quot;http://twitter.com/intent/tweet?text=&quot; + data:post.title + &quot;&amp;url=&quot; + data:post.url' style='color: #ccc;' target='_blank' title='Tweet This'><i class='fa fa-twitter' style='padding: 10px;'/></a></div>
 
