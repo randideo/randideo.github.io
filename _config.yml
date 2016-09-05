@@ -6,6 +6,8 @@ description: Words and doodles
 logo: site-logo.png
 search: false
 url: http://randideo.com
+
+#DISQUS
 comments: true
 
 # Google Drive CDN url
