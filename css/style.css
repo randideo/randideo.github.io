@@ -920,8 +920,7 @@ margin-bottom: 1.5em;
 @media all and (min-width:56.25em) {}
 @media all and (min-width:68.75em) {}
 .site-footernbt {
-background: #000000;
-color: #fff;
+color: #000;
 padding-bottom: 0;
 overflow: hidden;
 text-align: center;
