@@ -30,8 +30,8 @@ Words & doodles.
 <div class='widget Label' data-version='1' id='Label1'>
 <h2 class='title'>Categories</h2>
 <div class='widget-content'>
-   {% for category in site.categories %}
-  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/categories/#{{ category | first }}">{{ category | first }}</a>
+   {% for category in site.labels %}
+  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/categories/#{{ label | first }}">{{ category | first }}</a>
   </li>
 {% endfor %}
 </div>
