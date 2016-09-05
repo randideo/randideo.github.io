@@ -1,8 +1,6 @@
 <div class='sidebar-primary-container' id='sidebar-primary-container'>
 <div class='sidebar sidebar-primarynbt' id='sidebar-primarynbt' role='complementary'>
-<div class='nbtsidebarright section' id='nbtsidebarright'>
-    
-<div class='widget HTML' data-version='1' id='HTML3'>
+<div class='nbtsidebarright section' id='nbtsidebarright'><div class='widget HTML' data-version='1' id='HTML3'>
 <h2 class='title'>About</h2>
 <div class='widget-content'>
 Words & doodles.
@@ -29,6 +27,18 @@ Words & doodles.
 <div class='clear'></div>
 </div>
 
+<div class='widget Label' data-version='1' id='Label1'>
+<h2 class='title'>Categories</h2>
+<div class='widget-content'>
+   {% for category in site.categories %}
+  <li style='text-transform: capitalize; border-bottom: solid 1px #d9dcdf; list-style-type: none;'><a style="text-decoration: none;" href="/categories/#{{ category | first }}">{{ category | first }}</a>
+  </li>
+{% endfor %}
+</div>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+</div>
 </div></div>
 </div><!-- #sidebar-primary -->
 </div>
