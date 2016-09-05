@@ -132,7 +132,7 @@ padding: 0 .375em;
 blockquote {
 margin: 1.5em 1.5em 1.5em 0;
 padding-left: 1.5em;
-border-left: solid 3px #e6a117;
+border-left: solid 3px #000000;
 }
 blockquote cite {
 display: block;
