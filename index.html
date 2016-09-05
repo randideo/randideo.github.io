@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div>
-    <h3 class="entry-content">Recent Posts</h3>
+<div class="entry-content">
+    <h3>Recent Posts</h3>
     <ul>       
         {% for post in site.posts limit:5  %}
         {% unless post.draft %}
@@ -13,7 +13,7 @@ layout: default
         {% assign title = post.title %}
         {% endif %}
 
-        <li class="entry-content">
+        <li>
             
                         <time>{{ post.date | date:"%d %b" }}</time>
                         <span>- <a href="{{ post.url }}">{{ post.title }}</a></span>
