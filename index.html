@@ -12,13 +12,15 @@ This site is under construction, please excuse the mess.
     <h3 style="padding: .2em 0em .2em 0em;">Recent Blog Posts</h3>
     <ul>       
         {% for post in site.posts limit:10  %}
+        {% if post.category == "comics" %}
         {% unless post.draft %}
         {% if post.menutitle %}
         {% assign title = post.menutitle %}
         {% else %}
         {% assign title = post.title %}
         {% endif %}
-        <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% else if %}
+        <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li> {% endif %}  
         {% endunless %}
         {% endfor %}
     </ul>
