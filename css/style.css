@@ -527,12 +527,10 @@ color: #cccccc;
 margin-right: 0;
 }
 }
-.mainnbt, .sidebar-primary-container, .site-footernbt {
+.mainnbt, .sidebar-primary-container {
 padding: 1.5em 3.703%;
 }
-.site-footernbt h3 {
-font-size: 120%;
-}
+
 .hentry {
 background: #fff;
 margin: 1.5em auto;
@@ -655,13 +653,13 @@ width: 20%;
 }
 }
 @media all and (min-width:37.5em) {
-.mainnbt, .sidebar-primary-container, .site-footernbt {
+.mainnbt, .sidebar-primary-container {
 padding: 1.5em 7.407%;
 }
 }
 @media all and (min-width:43.75em) {}
 @media all and (min-width:50em) {
-.mainnbt, .sidebar-primary-container, .site-footernbt {
+.mainnbt, .sidebar-primary-container {
 padding: 1.5em 11.11%;
 }
 .hentry {
@@ -678,7 +676,7 @@ padding: 1.5em 0;
 float: left;
 margin: 0 3.703% 0 7.407%;
 }
-.sidebar-primary-container, .site-footernbt {
+.sidebar-primary-container {
 padding: 1.5em 7.407%;
 }
 .hentry {
@@ -919,44 +917,11 @@ margin-bottom: 1.5em;
 @media all and (min-width:50em) {}
 @media all and (min-width:56.25em) {}
 @media all and (min-width:68.75em) {}
-.site-footernbt {
-color: #000;
-padding-bottom: 0;
-overflow: hidden;
-text-align: center;
-}
-.site-footernbt a {
-color: #aaaaaa;
-text-decoration: none;
-}
-.site-footernbt a:link, .site-footernbt a:visited {
-color: #aaaaaa;
-}
-.site-footernbt a:active, .site-footernbt a:hover {
-color: #aaaaaa;
-}
-.design-credit {
-color: #000;
-text-transform: none;
-text-align: center;
-letter-spacing: .08em;
-padding: .75em;
-margin-top: 1em;
-position: relative;
-left: -4%;
-width: 108%;
-font-size: 80%;
-}
 @media all and (min-width:37.5em) {
-.design-credit {
-left: -9%;
-width: 118%;
-}
+
 }
 @media all and (min-width:43.75em) {
-.site-footernbt {
-padding: 1.5em 3.703% 0;
-}
+
 .sidebar-subsidiary:after {
 content: ".";
 display: block;
@@ -965,22 +930,14 @@ visibility: hidden;
 line-height: 0;
 height: 0;
 }
-.design-credit {
-clear: both;
-}
+
 }
 @media all and (min-width:50em) {
-.site-footernbt {
-padding: 1.5em 7.407% 0;
-}
+
 }
 @media all and (min-width:56.25em) {
-.site-footernbt {
-padding: 1.5em 3.703% 0;
-}
-.design-credit {
-left: -4%;
-width: 108%}
+
+
 }
 .screen-reader-text {
 position: absolute;
