@@ -1,26 +1,2 @@
 # SITE CONFIGURATION
 url: "http://randideo.com" # the base hostname & protocol for your site
-
-
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: randideo
-  avatar: 
-  gravatar: # Email MD5 hash
-  description: "Words & Doodles" # used by search engines
-
-  # Header and footer text
-  header_text: >
-     <h1>What's New</h1>
-   
-   # Scripts
-  katex: true # Enable if using math markup
-  
-  # Google Drive CDN url
-  images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
-  
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
