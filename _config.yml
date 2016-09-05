@@ -8,7 +8,9 @@ search: false
 url: http://randideo.com
 
 #DISQUS
+layout: default
 comments: true
+# other options
 
 # Google Drive CDN url
 
