@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="posts">
+
     {% for post in paginator.posts %}
-    <div class="post-teaser">
+   
       <header>
         <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -15,15 +15,14 @@ layout: default
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
       </header>
-      <div class="excerpt">
+     
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">
           {{ site.theme_settings.str_continue_reading }}
         </a>
-      </div>
-    </div>
+    
     {% endfor %}
-  </div>
+
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
