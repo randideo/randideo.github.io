@@ -6,4 +6,8 @@
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </h1>
+<div class="meta">
+    Posted {{ page.date | date: "%B %-d, %Y" }}
+    {% if page.author %} - {{ page.author }}{% endif %}
+    </div>
 <div class="entry-content">{{ content }}</div>
