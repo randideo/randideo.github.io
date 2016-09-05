@@ -1445,5 +1445,14 @@ height:auto;
       clear: none; }
     .large-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
+      
+      .th {
+    border: solid 4px #FFFFFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    line-height: 0;
+    max-width: 100%;
+    transition: all 200ms ease-out;
+}
 
 --></style>
