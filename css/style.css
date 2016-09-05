@@ -1447,8 +1447,7 @@ height:auto;
       clear: both; } }
       
       .th {
-    border: solid 4px #FFFFFF;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border: solid 0px #FFFFFF;
     display: inline-block;
     line-height: 0;
     max-width: 100%;
