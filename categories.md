@@ -3,7 +3,7 @@ layout: page
 title: Categories
 permalink: /categories/
 ---
-
+<br>
 {% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] }}
