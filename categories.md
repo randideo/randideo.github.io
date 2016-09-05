@@ -15,7 +15,7 @@ permalink: /categories/
   <h3 style='text-transform: capitalize;' id="{{ tag }}">{{ tag }}</h3>
   <ul>
   {% for post in site.categories[tag] %}
-    <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li style="entry-content"><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 {% endfor %}
