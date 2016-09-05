@@ -2,50 +2,28 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://randideo.com" # the base hostname & protocol for your site
 
+permalink: "/:title"
+
 # THEME-SPECIFIC CONFIGURATION
-theme_settings:
+theme:
   # Meta
   title: randideo
-  avatar: avatar.png
+  avatar: 
   gravatar: # Email MD5 hash
   description: "Words & Doodles" # used by search engines
-  
-  #Google CDN
-  images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a>
-  # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "rohanchandra/type-theme"
-  google_plus:
-  instagram:
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: "twitter"
-  wordpress:
-  youtube:
-
-  # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+     <h1>What's New</h1>
+   
+   # Scripts
   katex: true # Enable if using math markup
+  
+  # Google Drive CDN url
+  images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
+  
+
+# BUILD 
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -55,21 +33,11 @@ theme_settings:
   str_prev: "Prev"
   str_continue_reading: "Continue reading"
 
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: false
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
+
 gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "page:num"
