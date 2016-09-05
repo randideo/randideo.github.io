@@ -9,7 +9,7 @@ permalink: /categories/
     {{ tag[0] }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedtags = tags | split:' ' | sort %}
+
 
 {% for tag in sortedtags %}
   <h3 style='text-transform: capitalize;' id="{{ tag }}">{{ tag }}</h3>
