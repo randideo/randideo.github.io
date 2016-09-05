@@ -3,7 +3,7 @@ layout: page
 title: Blog
 ---
 
-<section id="archive" class="entry-content">
+
   <h3>This year's posts</h3>
   {%for post in site.categories.blog %}
     {% unless post.next %}
@@ -20,4 +20,4 @@ title: Blog
       <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
-</section>
+
