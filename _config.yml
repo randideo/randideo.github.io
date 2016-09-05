@@ -7,6 +7,10 @@ logo: site-logo.png
 search: false
 url: http://randideo.com
 
+# Google Drive CDN url
+
+images: https://googledrive.com/host/0B_BGvee0XueEcEkzeGJMd1FGdDQ/imgs/
+
 # Jekyll configuration
 
 permalink:   /:title/
