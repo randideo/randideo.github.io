@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "http://randideo.com/" # the subpath of your site, e.g. /blog/
 url: "http://randideo.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
