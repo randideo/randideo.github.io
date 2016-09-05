@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="content" class="entry-content">
+<div>
     <h3>Recent Posts</h3>
     <ul>       
         {% for post in site.posts limit:5  %}
@@ -13,7 +13,7 @@ layout: default
         {% assign title = post.title %}
         {% endif %}
 
-        <li>
+        <li class="entry-content">
             
                         <time>{{ post.date | date:"%d %b" }}</time>
                         <span>- <a href="{{ post.url }}">{{ post.title }}</a></span>
