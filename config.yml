@@ -2,6 +2,8 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://randideo.com" # the base hostname & protocol for your site
 permalink: "/:title"
+title: randideo
+description: "Words & Doodles"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -9,7 +11,7 @@ theme:
   title: randideo
   avatar: 
   gravatar: # Email MD5 hash
-  description: "Words & Doodles" # used by search engines
+   # used by search engines
 
   
   # Google Drive CDN url
