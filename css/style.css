@@ -112,7 +112,7 @@ font-size: 1em;
 }
 ol, ul {
 padding: 0;
-margin: 1.5em;
+margin: 0em 1.5em 1.5em 1.5em;
 }
 ol ol, ol ul, ul ol, ul ul {
 margin: 0 1.5em;
