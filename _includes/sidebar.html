@@ -31,7 +31,7 @@ Words & doodles.
 <h2 class='title'>Categories</h2>
 <div class='widget-content'>
    {% for category in site.categories %}
-  <li style='text-transform: capitalize; border-bottom: solid 1px #d9dcdf; list-style-type: none;'><a style="text-decoration: none;" href="/categories/#{{ category | first }}">{{ category | first }}</a>
+  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/categories/#{{ category | first }}">{{ category | first }}</a>
   </li>
 {% endfor %}
 </div>
