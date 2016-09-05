@@ -3,7 +3,7 @@ layout: page
 title: Categories
 permalink: /categories/
 ---
-<div style="padding 1em 0em 0em 0em;">
+<div style="padding 0em 1em 1em 1em;">
 {% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] }}
