@@ -6,7 +6,7 @@ permalink: comics
    
     <div class="large-6 columns">
     <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-3">       
-        {% for post in site.categories.comics limit:30  %}
+        {% for post in site.categories.comics limit: 24  %}
         {% unless post.draft %}
         {% if post.menutitle %}
         {% assign title = post.menutitle %}
