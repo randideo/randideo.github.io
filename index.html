@@ -1,16 +1,12 @@
 ---
 layout: page
 ---
-
-    
     <h1 class="entry-title" style="padding: 0em 0em .5em 0em;">What's New</h1>
-    
-
-This site is under construction, please excuse the mess.
+    This site is under construction, please excuse the mess.
     <h3 style="padding: .2em 0em .2em 0em;">New Comics</h3>
     <div class="large-6 columns">
     <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-3">       
-        {% for post in site.categories.comics limit:10  %}
+        {% for post in site.categories.comics limit:3  %}
         {% unless post.draft %}
         {% if post.menutitle %}
         {% assign title = post.menutitle %}
