@@ -1155,13 +1155,16 @@ height:auto;
     display: block;
     float: left;
     height: auto;
-    padding: 0 0.55556rem 1.11111rem; }
+     }
 
 @media only screen {
   .small-block-grid-1 > li {
     list-style: none;
     width: 100%; }
- 
+    .small-block-grid-1 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
 
   .small-block-grid-2 > li {
     list-style: none;
