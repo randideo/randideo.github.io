@@ -1454,4 +1454,30 @@ height:auto;
     transition: all 200ms ease-out;
 }
 
+@font-face {
+  font-family: 'ello';
+    url('http://randideo.com/css/ello.ttf?ghdf0b') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ello' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ello:before {
+  content: "\eab6";
+}
+
 --></style>
