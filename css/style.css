@@ -1455,15 +1455,19 @@ height:auto;
 }
 
 @font-face {
-  font-family: 'ello';
-    url('http://randideo.com/css/ello.ttf?ghdf0b') format('truetype'),
+  font-family: 'icomoon';
+  src:  url('http://randideo.com/css/fonts/icomoon.eot?ghdf0b');
+  src:  url('http://randideo.com/css/fonts/icomoon.eot?ghdf0b#iefix') format('embedded-opentype'),
+    url('http://randideo.com/css/fonts/icomoon.ttf?ghdf0b') format('truetype'),
+    url('http://randideo.com/css/fonts/icomoon.woff?ghdf0b') format('woff'),
+    url('http://randideo.com/css/fonts/icomoon.svg?ghdf0b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'ello' !important;
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1479,5 +1483,7 @@ height:auto;
 .icon-ello:before {
   content: "\eab6";
 }
+
+
 
 --></style>
