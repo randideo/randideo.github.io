@@ -10,7 +10,12 @@ layout: page
       {% capture year %}{{ post.date | date: '%Y' }} - {% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }} - {% endcapture %}
       {% if year != nyear %}
-        {% endcapture %}</ul>
+        </ul>
+        
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+
     <h3 style="padding: .2em 0em .2em 0em;">New Comics</h3>
     <div class="large-6 columns">
     <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-3">       
