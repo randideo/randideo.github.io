@@ -1155,7 +1155,7 @@ height:auto;
     display: block;
     float: left;
     height: auto;
-     }
+    padding: 0 0.55556rem 1.11111rem; }
 
 @media only screen {
   .small-block-grid-1 > li {
