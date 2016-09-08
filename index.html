@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-    <h1 class="entry-title" style="padding: 0em 0em .5em 0em;">What's New</h1>
+    <h1 class="entry-title">What's New</h1>
     <p>This site is under construction, please excuse the mess.</p>
 {%for post in site.categories.blog limit: 5 %}
       <ul><li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
