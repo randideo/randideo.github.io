@@ -1160,8 +1160,6 @@ height:auto;
 @media only screen {
   .small-block-grid-1 > li {
     list-style: none;
-    display: block;
-    margin: auto;
     width: 100%; }
     .small-block-grid-1 > li:nth-of-type(1n) {
       clear: none; }
