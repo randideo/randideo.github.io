@@ -1484,6 +1484,19 @@ height:auto;
   content: "\eab6";
 }
 
+.inline-btn {
+  @include clearfix;
+  a, btn {
+    display: inline-block;
+    margin-right: $gutter / 2;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+
 
 
 --></style>
