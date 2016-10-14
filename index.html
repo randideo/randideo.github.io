@@ -2,7 +2,7 @@
 layout: default
 ---
 
- {% for post in site.categories.comics limit: 3  %}
+{% for post in site.tags[this] %}
 <div class='post-outer'>
 <div class='post hentry'>
   <header>
