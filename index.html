@@ -4,8 +4,7 @@ layout: default
     <h1 class="entry-title">What's New</h1>
     <p>This site is under construction, please excuse the mess.</p>
     <h3 style="padding: 0em 0em .2em 0em;">New Comics</h3>
-    <div class="large-6 columns">
-    <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-3">       
+       
         {% for post in site.categories.comics limit: 3  %}
         {% unless post.draft %}
         {% if post.menutitle %}
@@ -18,5 +17,4 @@ layout: default
 	
         {% endunless %}
         {% endfor %}
-    </ul></div>
 
