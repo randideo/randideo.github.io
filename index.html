@@ -1,33 +1,22 @@
 ---
-layout: default
+layout: page
 ---
+    <h1 class="entry-title">What's New</h1>
+    <p>This site is under construction, please excuse the mess.</p>
+    <h3 style="padding: 0em 0em .2em 0em;">New Comics</h3>
+    <div class="large-6 columns">
+    <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-3">       
+        {% for post in site.categories.comics limit: 3  %}
+        {% unless post.draft %}
+        {% if post.menutitle %}
+        {% assign title = post.menutitle %}
+        {% else %}
+        {% assign title = post.title %}
+        {% endif %}
+        <li>{% if post.thumbnail %}
+	<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" class="th" align="center" /></a>{% endif %}
+	
+        {% endunless %}
+        {% endfor %}
+    </ul></div>
 
-{% for post in site.categories.blog limit: 3  %}
-<div class='post-outer'>
-<div class='post hentry'>
-  <header>
-    <h1 class="title">{{ page.title }}</h1>
-  </header>
-  <section class="entry-content">{{ content }}
-  </section>
-  
-  
- <table style = "width:200px; text-align:center; font-size:25px; color:#666;" align="center" >
-	    <td>
-<a style="color:#ccc;" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-facebook"></i></a>
-    </td>
-    <td>
-       <a style="color:#ccc;" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
-    </td>
-	 <td>
-<a style="color:#ccc;" href="https://tumblr.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-tumblr"></i></a>
-    </td>
-    <td>
-<a style="color:#ccc;" href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-google-plus"></i></a>
-    </td>
-</table>
-
-  
-  
-</div></div>
-{% endfor %}
