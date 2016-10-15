@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Categories
-permalink: /categories/
+title: Tags
+permalink: /tags/
 ---
 <div style="padding: 1em 0em 0em 0em;">
 {% capture tags %}
