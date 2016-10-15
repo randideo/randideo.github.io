@@ -47,7 +47,7 @@ Here we generate all the categories.
       <a href="{{ post.url }}">{{ post.title }}</a>
    
       {% for tag in post.tags %}
-      <a class="tag" style="color:#999;text-decoration: none; font-size: 12px;" href="{{ site.url }}/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      <a class="tag" style="color:#999;text-decoration: none; font-size: 12px; background: #efefef;" href="{{ site.url }}/tag/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}
    
   </li>
@@ -62,12 +62,10 @@ Here we generate all the categories.
   {% unless post.category %}
   <li>
    {{ post.date | date_to_string }} - 
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
    
       {% for tag in post.tags %}
-      <a class="tag" style="color:#999;text-decoration: none; font-size: 10px;" href="{{ site.url }}/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      <a class="tag" style="color:#999;text-decoration: none; font-size: 10px; background: #efefef;" href="{{ site.url }}/tag/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}
   
   </li>
