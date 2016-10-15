@@ -13,6 +13,7 @@ layout: default
 <div class='post hentry'>
 	 <header>
 		 <a href="{{ post.url }}" style="color: #000; text-decoration: none;"><h1 class="entry-title">{{ post.title }}</h1></a>
+		  {{ page.date | date: '%B %d, %Y' }}
   </header>
 	<div class="entry-content">{{ post.content }} </div> 
 	  <table style = "width:200px; text-align:center; font-size:25px; color:#666;" align="center" >
