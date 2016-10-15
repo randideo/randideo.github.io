@@ -26,12 +26,11 @@ title: Archive
 {% endif %}
 {% endfor %}
 
-<div class="posts">
 <p>
 {% for ct in cats %}
-<a href="#{{ ct | slugify }}" class="tag" style="color:#999;text-decoration: none;"> {{ ct }} </a> &nbsp;&nbsp;
+<a href="{{ post.url }}/category/#{{ ct | slugify }}" class="tag" style="color:#999;text-decoration: none;"> {{ ct }} </a> &nbsp;&nbsp;
 {% endfor %}
-<a href="#no-category" class="tag" style="color:#999;text-decoration: none;"> No Category </a> &nbsp;&nbsp;
+<a href="{{ post.url }}/category/#no-category" class="tag" style="color:#999;text-decoration: none;"> No Category </a> &nbsp;&nbsp;
 </p>
 
 
