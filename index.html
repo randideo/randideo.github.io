@@ -16,7 +16,6 @@ layout: default
 		  Posted {{ post.date | date: '%B %d, %Y' }} · <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>
   </header>
 	<div class="entry-content">{{ post.content }} </div> 
-	<div><ul class="tags">{% for tag in post.tags %}<li><a href="/tags/#{{ tag }}" class="tag">{{ tag }}</a></li>{% endfor %}</ul></div>
 	<table style = "width:200px; text-align:center; font-size:25px; color:#666;" align="center" >
 	    <td>
 <a style="color:#ccc;" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-facebook"></i></a>
