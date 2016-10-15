@@ -14,8 +14,7 @@ layout: default
         {% endif %}
         <li>{% if post.thumbnail %}
 	<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" class="th" align="center" /></a>{% endif %}
-	  <section class="entry-content">{{ content }}
-  </section>
+	  {% if post.content %}<section class="entry-content">{{ content }} </section>{% endif %}
         {% endunless %}
         {% endfor %}
 
