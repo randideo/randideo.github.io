@@ -17,19 +17,16 @@ Words & doodles.
     <div class='widget-content'>
     <div class="email-octopus-form-wrapper">
 <form method="post" name="subscribeform" id="subscribeform" enctype="multipart/form-data">
-    <table border=0>
-      
-        <tr>
-            <td><div class="required">First name</div></td>
-            <td class="attributeinput">
-                <input type=text name="attribute1" id="attribute1" class="attributeinput" size="40" value="">
-            </td>
-        </tr>
-          <tr>
-            <td><div class="required">Email</div></td>
-            <td class="attributeinput"><input type=text name="email" value="" id="email" size="40"></td>
-        </tr>
-    </table>
+ 
+<div class="email-octopus-form-row">
+<label>First name</label>
+                <input type=text class="email-octopus-email-address" name="attribute1" id="attribute1" class="attributeinput" size="40" value="">
+    </div>
+     
+<div class="email-octopus-form-row">
+    <label>Email</label>
+           <input type=text class="email-octopus-email-address" name="email" value="" id="email" size="40">
+    </div>
     <input type=hidden name="htmlemail" value="1">
     <input type="hidden" name="list[11]" value="signup"  />
     <input type="hidden" name="subscribe" value="subscribe"/>
