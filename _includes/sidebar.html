@@ -77,7 +77,7 @@ function submitForm() {
 <h2 class='title'>Categories</h2>
 <div class='widget-content'>
    {% for category in site.categories %}
-  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/category/#{{ label | first }}">{{ category | first }}</a>
+  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/category/##{{ ct | slugify }}">{{ category | first }}</a>
   </li>
 {% endfor %}
 </div>
