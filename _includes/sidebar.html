@@ -43,22 +43,18 @@ Words & doodles.
 function checkform()
 {
     re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
     if (!(re.test(jQuery("#email").val()))) {
         jQuery("#result").empty().append("Please enter a valid email address");
         jQuery("#email").focus();
         return false;
     }
-
     if (jQuery("#attribute1").val() == "") {
         jQuery("#result").empty().append("Please enter your " + "First name");
         jQuery("#attribute1").focus();
         return false;
     }
-
     return true;
 }
-
 function submitForm() {
     successMessage = 'Thank you! Please check your email to confirm your subscription.';
     data = jQuery('#subscribeform').serialize();
@@ -75,16 +71,14 @@ function submitForm() {
         error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.'); }
     });
 }
-
 </script>
     </div>
     
     
-
-
-
-   
-        </div>
+<div class='clear'></div>
+</div>
+    
+ 
 
 </div>
 </div></div>
