@@ -8,70 +8,7 @@ Words & doodles.
 <div class='clear'></div>
 </div>
 
-    <div class='widget HTML' data-version='1' id='HTML2'>
-<h2 class='title'>Newsletter</h2>
-<div class='widget-content'>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<style>.email-octopus-form-wrapper h2{font-size:20px;margin:0 0 25px 0;}.email-octopus-form-row{margin-bottom:15px;}.email-octopus-form-row label{display:block;}.email-octopus-form-row input{width:100%;padding:8px;height:32px;border:1px solid #ccc;}.email-octopus-form-row-subscribe{margin-top:20px;}.email-octopus-form-row-subscribe button{color:#fff;background-color:#000000;border:0;max-width: 13.875em; padding:8px 15px;font-family: lusitana, serif;
-    font-size: 1em;
-    line-height: 1.85;font-weight:bold;}.email-octopus-form-row-hp{position:absolute;left:-5000px;}.email-octopus-error-message{color:#e74c3c;}.email-octopus-referral{margin-top:20px;}</style>
-    <div class="email-octopus-form-wrapper">
-<form method="post" name="subscribeform" id="subscribeform" enctype="multipart/form-data">
- 
-<div class="email-octopus-form-row">
-<label>First name</label>
-                <input type=text name="attribute1" id="attribute1" class="email-octopus-email-address" size="40" value="">
-    </div>
-     
-<div class="email-octopus-form-row">
-    <label>Email</label>
-           <input type=text class="email-octopus-email-address" name="email" value="" id="email" size="40">
-    </div>
-    <input type=hidden name="htmlemail" value="1">
-    <input type="hidden" name="list[3]" value="signup"  />
-    <input type="hidden" name="subscribe" value="subscribe"/>
-    <div style="display:none"><input type="text" name="VerificationCodeX" value="" size="20"></div>
-    <div class="email-octopus-form-row-subscribe">
-<button class='button' 
-        onclick="if (checkform()) {submitForm();} return false;"
-        >Subscribe</button></div>
-    <div id="result" style="color: #e74c3c;"></div>
-</form></div>
-
-<script type="text/javascript">
-function checkform()
-{
-    re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (!(re.test(jQuery("#email").val()))) {
-        jQuery("#result").empty().append("Please enter a valid email address");
-        jQuery("#email").focus();
-        return false;
-    }
-    if (jQuery("#attribute1").val() == "") {
-        jQuery("#result").empty().append("Please enter your " + "First name");
-        jQuery("#attribute1").focus();
-        return false;
-    }
-    return true;
-}
-function submitForm() {
-    successMessage = 'Thank you! Please check your email to confirm your subscription.';
-    data = jQuery('#subscribeform').serialize();
-    jQuery.ajax( {
-        type: 'POST',
-        data: data,
-        url: 'http://newsletter.randideo.com/?p=subscribe',
-        dataType: 'html',
-        success: function (data, status, request) {
-            jQuery("#result").empty().append(data != '' ? data : successMessage);
-            jQuery('#attribute1').val('');
-            jQuery('#email').val('');
-        },
-        error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.'); }
-    });
-}
-</script>
-        </div></div>
+</div>
     
 <div>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
