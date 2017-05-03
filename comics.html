@@ -4,5 +4,5 @@ title:    Comics
 ---
 
 {% for post in site.categories.comics %}
-    <li>{{ post.title }}</li>
+    + [{{ post.title }}]({{ page.url }})
 {% endfor %}
