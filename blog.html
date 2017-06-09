@@ -3,11 +3,6 @@ layout: page
 title: Blog
 ---
 
-<article style="margin-bottom: 3em;
-  @media (min-width: 672px) {
-    text-align: left;
-  }">
-
   {% for post in site.posts %}
     {% unless post.category == "portfolio" %}
 
@@ -24,8 +19,6 @@ title: Blog
 
     {% endunless %}
   {% endfor %}
-
-</article>
 
 
   <h3>This year's posts</h3>
