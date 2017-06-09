@@ -3,24 +3,6 @@ layout: page
 title: Blog
 ---
 
-  {% for post in site.posts %}
-    {% unless post.category == "portfolio" %}
-
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% unless year == this_year %}
-    {% assign year = this_year %}
-    <h3 class="archive-year">{{ year }}</h3>
-    {% endunless %}
-
-    <div style="text-decoration: underline;">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div style="float: right;">{{ post.date | date: "%B %-d" }}</div>
-    </div>
-
-    {% endunless %}
-  {% endfor %}
-
-
   <h3>This year's posts</h3>
   {%for post in site.categories.Blog %}
     {% unless post.next %}
