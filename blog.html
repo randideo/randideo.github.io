@@ -8,9 +8,11 @@ title: Blog
     {% unless post.next %}
       <ul class="this">
     {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }} - {% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }} - {% endcapture %}
-      {% if year != nyear %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless year == this_year %}
+    {% assign year = this_year %}
+    <h3>{{ year }}</h3>
+    {% endunless %}
         </ul>
         <h3>{{ post.date | date: '%Y' }}</h3>
         <ul class="past">
