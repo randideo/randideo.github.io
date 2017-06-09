@@ -3,11 +3,7 @@ layout: page
 title: Blog
 ---
 
-<article class="archive" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <header class="entry-header">
-    <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
-  </header>
+<article class="archive">
 
   {% for post in site.posts %}
     {% unless post.category == "portfolio" %}
