@@ -3,7 +3,11 @@ layout: page
 title: Blog
 ---
 
-<article class="archive">
+<article style="margin-bottom: 3em;
+  text-align: center;
+  @media (min-width: 672px) {
+    text-align: left;
+  }">
 
   {% for post in site.posts %}
     {% unless post.category == "portfolio" %}
