@@ -382,7 +382,7 @@ max-width: none;
 min-height: 1px;
 width: auto;
 padding: 0;
-text-align: right;
+text-align: left;
 background: 0 0;
 }
 .menu-primarynbt p {
@@ -393,7 +393,7 @@ margin: 0;
 line-height: 0;
 }
 .menu-primary-items li, .menu-unset li {
-float: right;
+float: left;
 background: #000;
 position: relative;
 -webkit-transition: background .2s ease;
