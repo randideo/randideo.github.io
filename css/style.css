@@ -393,7 +393,7 @@ margin: 0;
 line-height: 0;
 }
 .menu-primary-items li, .menu-unset li {
-float: left;
+float: right;
 background: #000;
 position: relative;
 -webkit-transition: background .2s ease;
