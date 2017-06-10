@@ -12,7 +12,8 @@ title:    Comics
       {% capture nyear %}{{ post.next.date | date: '%Y' }} - {% endcapture %}
       {% if year != nyear %}
         </ul>
-<br>
+<hr style="display: block; clear: left; margin: -0.66em 0;
+    visibility: hidden;">
 
         <h3>{{ post.date | date: '%Y' }}</h3>
         <ul style="list-style: none; margin: 0em;">
