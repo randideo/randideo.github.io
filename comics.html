@@ -13,10 +13,11 @@ title:    Comics
       {% if year != nyear %}
         </ul>
         <h3>{{ post.date | date: '%Y' }}</h3>
+<div style="width:100%;">
         <ul style="list-style: none; margin: 0em;">
       {% endif %}
     {% endunless %}
       <li style="float: left; padding: 5px; width: 33.33333333333333%;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
   {% endfor %}
-  </ul>
+  </ul></div>
 
