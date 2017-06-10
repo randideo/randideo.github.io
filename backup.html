@@ -15,7 +15,7 @@ layout: default
 	 <div class='post hentry'>
 		 <div class="entry-content">
 			 <h3>Latest Blog Posts</h3>
-			 {%for post in site.categories.Blog %}
+			 {%for post in site.categories.Blog limit: 5 %}
     {% unless post.next %}
       <ul class="this">
     {% else %}
