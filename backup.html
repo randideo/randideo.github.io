@@ -9,6 +9,22 @@ layout: default
 		 </div>
 	 </div>
 </div>
+
+
+ <div class='post-outer'>
+	 <div class='post hentry'>
+		 <div class="entry-content">
+	Latest Blog Posts<br>
+			 {%for post in site.categories.Blog %}
+<ul class="past">
+      {% endif %}
+    {% endunless %}
+      <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+		 </div>
+	 </div>
+</div>
       
         {% for post in site.posts limit: 3  %}
         {% unless post.draft %}
