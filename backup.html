@@ -14,7 +14,7 @@ layout: default
  <div class='post-outer'>
 	 <div class='post hentry'>
 		 <div class="entry-content">
-	Latest Blog Posts<br>
+			 <h3>Latest Blog Posts</h3>
 			 {%for post in site.categories.Blog %}
     {% unless post.next %}
       <ul class="this">
@@ -27,7 +27,7 @@ layout: default
         <ul class="past">
       {% endif %}
     {% endunless %}
-		<li><time><b>{{ post.date | date:"%d %b" }}</b></time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+		<li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 		 </div>
