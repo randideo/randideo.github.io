@@ -6,10 +6,11 @@ layout: default
 	 <div class='post hentry'>
 		 <div class="entry-content">
 			 <h2 style="padding-bottom: 10px;">New Comics</h2>
+			 <div style="align: center;">
 <ul style="list-style: none; float: left; margin: 0em;">
 	{% for post in site.categories.Comics limit: 6 %}
 	<li style="float: left; padding-right: 10px;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
-{% endfor %}</ul>
+	{% endfor %}</ul></div>
 
 		 </div>
 	 </div>
