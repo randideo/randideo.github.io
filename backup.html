@@ -6,10 +6,9 @@ layout: default
 	 <div class='post hentry'>
 		 <div class="entry-content">
 			 <h2>New Comics</h2>
-<ul style="list-style-type: none; float: left;
-    padding-right: 10px;">
+<ul style="list-style-type: none;">
 	{% for post in site.categories.Comics limit: 5 %}
-	<li>  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
+	<li style="float: left; padding-right: 10px;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
 {% endfor %}</ul>
 
 		 </div>
