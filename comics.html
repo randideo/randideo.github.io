@@ -3,7 +3,7 @@ layout:   page
 title:    Comics
 ---
 
-  <h3>This year's posts</h3>
+  <h3>This year's comics</h3>
   {%for post in site.categories.Comics %}
     {% unless post.next %}
       <ul class="this">
@@ -16,7 +16,7 @@ title:    Comics
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li style="float: left; padding: 5px; width: 33.33333333333333%;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
   {% endfor %}
   </ul>
 
