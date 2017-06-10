@@ -16,8 +16,8 @@ layout: default
 	 <div class='post hentry'>
 		 <div class="entry-content">
 			 <h3>Blog Posts</h3>
-{% for post in site.categories.Blog limit: 5 %}
 <ul style="list-style-type: circle;">
+	{% for post in site.categories.Blog limit: 5 %}
 <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
 </ul>
 {% endfor %}
@@ -31,7 +31,7 @@ layout: default
 			 <h3>Comics</h3>
 <ul style="list-style-type: circle;">
 	{% for post in site.categories.Comics limit: 5 %}
-<li>{{ post.date | date:"%d %b" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+	<li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}</ul>
 
 		 </div>
