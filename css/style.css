@@ -12,10 +12,6 @@ line-height: 1.5;
 background: #eeede8;
 }
 
-.post-content {
-    font-family: Vollkorn;
-}
-
 .overflow-containernbt {
 overflow: hidden;
 }
@@ -23,9 +19,8 @@ overflow: hidden;
 .mainnbt {
 background: #eeede8;
 margin: 0 auto;
--webkit-transition: all .3s ease;
-transition: all .3s ease;
 }
+
 .mainnbt:after {
 content: '';
 position: absolute;
@@ -34,8 +29,6 @@ left: 0;
 width: 100%;
 background: #373b41;
 opacity: 0;
--webkit-transition: opacity .3s ease;
-transition: opacity .3s ease;
 }
 p {
 margin: 1.5em 0;
