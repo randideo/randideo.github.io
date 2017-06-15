@@ -3,7 +3,6 @@
 -----------------------------------------------
 Template Name  : randideo
 ----------------------------------------------- */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
 body#layout ul{list-style-type:none;list-style:none}
 body#layout ul li{list-style-type:none;list-style:none}
 body#layout #headerbwrap {height:auto;}
@@ -16,6 +15,9 @@ body#layout .side-widget {display:none;}
 ====================
 */
 /* Use this with templates/template-twocol.html */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+
 .section, .widget {
 margin:0;
 padding:0;
