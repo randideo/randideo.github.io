@@ -36,8 +36,6 @@ margin: 1.5em 0;
 .home-link { display:none;}
 a {
 color: #dd3300;
--webkit-transition: color .2s ease;
-transition: color .2s ease;
 }
 a:link {
 color: #dd3300;
@@ -179,12 +177,6 @@ padding: 1.25em 3.703% 0;
 position: relative;
 }
 
-.site-featurednbt {
-background: #ffffff;
-height: 4.6em;
-padding: 1.25em 3.703% 0;
-position: relative;
-}
 .site-title {
 font-size: 1.625em;
 line-height: 1.85;
@@ -192,13 +184,6 @@ position: absolute;
 top: .7em;
 right: 3.703%;
 z-index: 1;
-}
-.site-title a {
-text-decoration: none;
-color: #373b41;
-}
-.site-title a:hover {
-color: #e6a117;
 }
 .site-title img {
 max-width: 6em;
@@ -217,8 +202,6 @@ position: absolute;
 z-index: 1;
 background: 0 0;
 border: none;
--webkit-transition: color .2s ease;
-transition: color .2s ease;
 }
 .toggle-navigationnbt:hover {
 cursor: pointer;
