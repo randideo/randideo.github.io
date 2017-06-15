@@ -1105,15 +1105,6 @@ background:none;
 max-width:100%;
 height:auto;
 }
-/***** Optin Form CSS *****/
-.opt-in .inner { padding: 50px 0; color: #000;  }
-.opt-in .inner h4 { font-style: normal; margin-bottom: 10px;  }
-.opt-in .opt-in-wrap { position: relative; width: 100%; }
-.opt-in .info { float: left;  width: 30%;  }
-.opt-in .description {float: right; width: 65%; text-align: left; }
-.ct-wrapper { padding: 0 20px; position: relative; max-width: 1150px; margin: 0px auto; }
-
-
 
 @font-face {
   font-family: 'icomoon';
@@ -1144,32 +1135,5 @@ height:auto;
 .icon-ello:before {
   content: "\eab6";
 }
-
-.tags {
-  list-style: none;
-  margin: 0;
-  overflow: hidden; 
-  padding: 0;
-}
-
-.tags li {
-  float: left; 
-}
-
-.tag {
-  background: #eee;
-  color: #999;
-  display: inline-block;
-  height: 26px;
-  line-height: 26px;
-  padding: 0 15px 0 15px;
-  position: relative;
-  margin: 0 10px 10px 0;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-}
-
-
-
 
 --></style>
