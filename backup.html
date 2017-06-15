@@ -8,7 +8,7 @@ layout: default
 			 <h2 style="padding-bottom: 10px;">New Comics</h2>
 			
 <ul style="list-style: none; margin: 0em;">
-	{% for post in site.categories.Comics limit: 3 %}
+	{% for post in site.categories.Comics limit: 9 %}
 	<li style="float: left; padding: 5px; width: 33.33333333333333%;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
 	{% endfor %}</ul>
 
