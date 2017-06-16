@@ -3,6 +3,7 @@
 -----------------------------------------------
 Template Name  : randideo
 ----------------------------------------------- */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
 body#layout ul{list-style-type:none;list-style:none}
 body#layout ul li{list-style-type:none;list-style:none}
 body#layout #headerbwrap {height:auto;}
@@ -11,8 +12,10 @@ body#layout .site-featurednbt {margin: 0 0 0px;}
 body#layout #content {}
 body#layout #slider {display:none;}
 body#layout .side-widget {display:none;}
-
-
+/* Variable definitions
+====================
+*/
+/* Use this with templates/template-twocol.html */
 .section, .widget {
 margin:0;
 padding:0;
@@ -22,7 +25,6 @@ padding:0;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 }
-
 body {
 font-size: 100%;
 margin: 0;
@@ -30,17 +32,29 @@ padding: 0;
 font-family: Vollkorn;
 line-height: 1.5;
 background: #eeede8;
+-webkit-font-smoothing: antialiased;
+word-wrap: break-word;
+-ms-word-wrap: break-word;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
 }
 
+.post-content {
+    font-family: Vollkorn;
+   
+  
+}
 .overflow-containernbt {
 overflow: hidden;
 }
-
 .mainnbt {
 background: #eeede8;
 margin: 0 auto;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;
 }
-
 .mainnbt:after {
 content: '';
 position: absolute;
@@ -49,6 +63,8 @@ left: 0;
 width: 100%;
 background: #373b41;
 opacity: 0;
+-webkit-transition: opacity .3s ease;
+transition: opacity .3s ease;
 }
 p {
 margin: 1.5em 0;
@@ -56,6 +72,8 @@ margin: 1.5em 0;
 .home-link { display:none;}
 a {
 color: #dd3300;
+-webkit-transition: color .2s ease;
+transition: color .2s ease;
 }
 a:link {
 color: #dd3300;
@@ -197,6 +215,12 @@ padding: 1.25em 3.703% 0;
 position: relative;
 }
 
+.site-featurednbt {
+background: #ffffff;
+height: 4.6em;
+padding: 1.25em 3.703% 0;
+position: relative;
+}
 .site-title {
 font-size: 1.625em;
 line-height: 1.85;
@@ -204,6 +228,13 @@ position: absolute;
 top: .7em;
 right: 3.703%;
 z-index: 1;
+}
+.site-title a {
+text-decoration: none;
+color: #373b41;
+}
+.site-title a:hover {
+color: #e6a117;
 }
 .site-title img {
 max-width: 6em;
@@ -222,6 +253,8 @@ position: absolute;
 z-index: 1;
 background: 0 0;
 border: none;
+-webkit-transition: color .2s ease;
+transition: color .2s ease;
 }
 .toggle-navigationnbt:hover {
 cursor: pointer;
@@ -1101,14 +1134,333 @@ background:none;
 max-width:100%;
 height:auto;
 }
+/***** Optin Form CSS *****/
+.opt-in .inner { padding: 50px 0; color: #000;  }
+.opt-in .inner h4 { font-style: normal; margin-bottom: 10px;  }
+.opt-in .opt-in-wrap { position: relative; width: 100%; }
+.opt-in .info { float: left;  width: 30%;  }
+.opt-in .description {float: right; width: 65%; text-align: left; }
+.ct-wrapper { padding: 0 20px; position: relative; max-width: 1150px; margin: 0px auto; }
+
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -0.55556rem; }
+  [class*="block-grid-"]:before, [class*="block-grid-"]:after {
+    content: " ";
+    display: table; }
+  [class*="block-grid-"]:after {
+    clear: both; }
+  [class*="block-grid-"] > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.55556rem 1.11111rem; }
+
+@media only screen {
+  .small-block-grid-1 > li {
+    list-style: none;
+    width: 100%; }
+    .small-block-grid-1 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  .small-block-grid-2 > li {
+    list-style: none;
+    width: 50%; }
+    .small-block-grid-2 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  .small-block-grid-3 > li {
+    list-style: none;
+    width: 33.33333%; }
+    .small-block-grid-3 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  .small-block-grid-4 > li {
+    list-style: none;
+    width: 25%; }
+    .small-block-grid-4 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  .small-block-grid-5 > li {
+    list-style: none;
+    width: 20%; }
+    .small-block-grid-5 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  .small-block-grid-6 > li {
+    list-style: none;
+    width: 16.66667%; }
+    .small-block-grid-6 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  .small-block-grid-7 > li {
+    list-style: none;
+    width: 14.28571%; }
+    .small-block-grid-7 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  .small-block-grid-8 > li {
+    list-style: none;
+    width: 12.5%; }
+    .small-block-grid-8 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  .small-block-grid-9 > li {
+    list-style: none;
+    width: 11.11111%; }
+    .small-block-grid-9 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  .small-block-grid-10 > li {
+    list-style: none;
+    width: 10%; }
+    .small-block-grid-10 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  .small-block-grid-11 > li {
+    list-style: none;
+    width: 9.09091%; }
+    .small-block-grid-11 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  .small-block-grid-12 > li {
+    list-style: none;
+    width: 8.33333%; }
+    .small-block-grid-12 > li:nth-of-type(1n) {
+      clear: none; }
+    .small-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; } }
+@media only screen and (min-width: 35.61111em) {
+  .medium-block-grid-1 > li {
+    list-style: none;
+    width: 100%; }
+    .medium-block-grid-1 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  .medium-block-grid-2 > li {
+    list-style: none;
+    width: 50%; }
+    .medium-block-grid-2 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  .medium-block-grid-3 > li {
+    list-style: none;
+    width: 33.33333%; }
+    .medium-block-grid-3 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  .medium-block-grid-4 > li {
+    list-style: none;
+    width: 25%; }
+    .medium-block-grid-4 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  .medium-block-grid-5 > li {
+    list-style: none;
+    width: 20%; }
+    .medium-block-grid-5 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  .medium-block-grid-6 > li {
+    list-style: none;
+    width: 16.66667%; }
+    .medium-block-grid-6 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  .medium-block-grid-7 > li {
+    list-style: none;
+    width: 14.28571%; }
+    .medium-block-grid-7 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  .medium-block-grid-8 > li {
+    list-style: none;
+    width: 12.5%; }
+    .medium-block-grid-8 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  .medium-block-grid-9 > li {
+    list-style: none;
+    width: 11.11111%; }
+    .medium-block-grid-9 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  .medium-block-grid-10 > li {
+    list-style: none;
+    width: 10%; }
+    .medium-block-grid-10 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  .medium-block-grid-11 > li {
+    list-style: none;
+    width: 9.09091%; }
+    .medium-block-grid-11 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  .medium-block-grid-12 > li {
+    list-style: none;
+    width: 8.33333%; }
+    .medium-block-grid-12 > li:nth-of-type(1n) {
+      clear: none; }
+    .medium-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; } }
+@media only screen and (min-width: 56.94444em) {
+  .large-block-grid-1 > li {
+    list-style: none;
+    width: 100%; }
+    .large-block-grid-1 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  .large-block-grid-2 > li {
+    list-style: none;
+    width: 50%; }
+    .large-block-grid-2 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  .large-block-grid-3 > li {
+    list-style: none;
+    width: 33.33333%; }
+    .large-block-grid-3 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  .large-block-grid-4 > li {
+    list-style: none;
+    width: 25%; }
+    .large-block-grid-4 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  .large-block-grid-5 > li {
+    list-style: none;
+    width: 20%; }
+    .large-block-grid-5 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  .large-block-grid-6 > li {
+    list-style: none;
+    width: 16.66667%; }
+    .large-block-grid-6 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  .large-block-grid-7 > li {
+    list-style: none;
+    width: 14.28571%; }
+    .large-block-grid-7 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  .large-block-grid-8 > li {
+    list-style: none;
+    width: 12.5%; }
+    .large-block-grid-8 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  .large-block-grid-9 > li {
+    list-style: none;
+    width: 11.11111%; }
+    .large-block-grid-9 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  .large-block-grid-10 > li {
+    list-style: none;
+    width: 10%; }
+    .large-block-grid-10 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  .large-block-grid-11 > li {
+    list-style: none;
+    width: 9.09091%; }
+    .large-block-grid-11 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  .large-block-grid-12 > li {
+    list-style: none;
+    width: 8.33333%; }
+    .large-block-grid-12 > li:nth-of-type(1n) {
+      clear: none; }
+    .large-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; } }
+      
+      .th {
+    border: solid 0px #FFFFFF;
+    display: inline-block;
+    line-height: 0;
+    max-width: 100%;
+    transition: all 200ms ease-out;
+}
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://randideo.com/css/fonts/icomoon.eot?ghdf0b');
-  src:  url('https://randideo.com/css/fonts/icomoon.eot?ghdf0b#iefix') format('embedded-opentype'),
-    url('https://randideo.com/css/fonts/icomoon.ttf?ghdf0b') format('truetype'),
-    url('https://randideo.com/css/fonts/icomoon.woff?ghdf0b') format('woff'),
-    url('https://randideo.com/css/fonts/icomoon.svg?ghdf0b#icomoon') format('svg');
+  src:  url('http://randideo.com/css/fonts/icomoon.eot?ghdf0b');
+  src:  url('http://randideo.com/css/fonts/icomoon.eot?ghdf0b#iefix') format('embedded-opentype'),
+    url('http://randideo.com/css/fonts/icomoon.ttf?ghdf0b') format('truetype'),
+    url('http://randideo.com/css/fonts/icomoon.woff?ghdf0b') format('woff'),
+    url('http://randideo.com/css/fonts/icomoon.svg?ghdf0b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1131,4 +1483,32 @@ height:auto;
 .icon-ello:before {
   content: "\eab6";
 }
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
+}
+
+.tags li {
+  float: left; 
+}
+
+.tag {
+  background: #eee;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 15px 0 15px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+
+
+
 --></style>
