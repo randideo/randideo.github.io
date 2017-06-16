@@ -3,6 +3,26 @@
 -----------------------------------------------
 Template Name  : randideo
 ----------------------------------------------- */
+body#layout ul{list-style-type:none;list-style:none}
+body#layout ul li{list-style-type:none;list-style:none}
+body#layout #headerbwrap {height:auto;}
+body#layout .site-headernbt {margin: 0 0 0px;}
+body#layout .site-featurednbt {margin: 0 0 0px;}
+body#layout #content {}
+body#layout #slider {display:none;}
+body#layout .side-widget {display:none;}
+
+
+.section, .widget {
+margin:0;
+padding:0;
+}
+*, :after, :before {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
 body {
 font-size: 100%;
 margin: 0;
