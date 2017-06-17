@@ -718,7 +718,6 @@ padding: 3em 5.5% 2.25em;
 @media all and (min-width:75em) {}
 .sidebar-primary-container {
 position: relative;
-background: #eeede8;
 -webkit-transition: all .3s ease;
 transition: all .3s ease;
 }
