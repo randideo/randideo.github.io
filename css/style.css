@@ -11,10 +11,23 @@ body#layout .site-featurednbt {margin: 0 0 0px;}
 body#layout #content {}
 body#layout #slider {display:none;}
 body#layout .side-widget {display:none;}
-/* Variable definitions
+
 ====================
-*/
-/* Use this with templates/template-twocol.html */
+
+.comicthumb {
+    float: left; 
+    padding: 5px; 
+    width: 33.33333333333333%;
+}
+
+@media only screen and (max-width: 500px) {
+    .comicthumb {
+        float: left; 
+        padding: 5px; 
+        width: 50%;
+    }
+}
+
 .section, .widget {
 margin:0;
 padding:0;
@@ -1188,14 +1201,6 @@ height:auto;
   text-decoration: none;
   -webkit-transition: color 0.2s;
 }
-
-.comicthumb {
-    float: left; 
-    padding: 5px; 
-    width: 33.33333333333333%;
-}
-
-
 
 
 
