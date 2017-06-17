@@ -1189,6 +1189,20 @@ height:auto;
   -webkit-transition: color 0.2s;
 }
 
+.comic_thumb {
+    float: left; 
+    padding: 5px; 
+    width: 33.33333333333333%;
+}
+
+@media only screen and (max-width: 500px) {
+    .comic_thumb {
+        float: left; 
+        padding: 5px; 
+        width: 50%;
+    }
+}
+
 
 
 
