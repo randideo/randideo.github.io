@@ -7,9 +7,9 @@ layout: default
 		 <div class="entry-content">
 			 <h2 style="padding-bottom: 10px;">New Comics</h2>
 			
-<ul style="list-style: none; margin: 0em;">
+<ul class="comicthumb">
 	{% for post in site.categories.Comics limit: 9 %}
-	<li class="comicthumb">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
+	<li>  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
 	{% endfor %}</ul>
 			 <div style="clear: both;"></div>
 			 <div align="right" class="jump-link"><a href="https://randideo.com/comics">View more »</a></div>
