@@ -224,7 +224,6 @@ position: absolute;
 top: .7em;
 right: 3.703%;
 z-index: 1;
-    margin-top: 1.125em;
 }
 .site-title a {
 text-decoration: none;
@@ -363,7 +362,7 @@ height: 0;
 .toggle-navigationnbt {
 display: none;
 }
-.title-infonbt {
+.logo {
 float: left;
 margin-right: 3em;
 margin-top: 1.125em;
