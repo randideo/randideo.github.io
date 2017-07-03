@@ -18,7 +18,7 @@ layout: default
 
 
 
-{% for post in site.posts limit: 3  %}
+{% for post in site.posts.Blog limit: 3  %}
         {% unless post.draft %}
         {% if post.menutitle %}
         {% assign title = post.menutitle %}
@@ -32,20 +32,6 @@ layout: default
 		  Posted {{ post.date | date: '%B %d, %Y' }} · <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>
   </header>
 	<div class="entry-content">{{ post.content }} </div> 
-	<table style = "width:200px; text-align:center; font-size:25px; color:#666;" align="center" >
-	    <td>
-<a style="color:#ccc;" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-facebook"></i></a>
-    </td>
-    <td>
-       <a style="color:#ccc;" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
-    </td>
-	 <td>
-<a style="color:#ccc;" href="https://tumblr.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-tumblr"></i></a>
-    </td>
-    <td>
-<a style="color:#ccc;" href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-google-plus"></i></a>
-    </td>
-</table>
 	 
 	 </div></div>
         {% endunless %}
