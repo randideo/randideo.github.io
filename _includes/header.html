@@ -21,25 +21,19 @@
 
 </script>
 	
-	<header class="site-headernbt" id="site-headernbt" role="banner">
-<div class='title-infonbt'>
-<div class='headersec section' id='headersec'><div class='widget Header' data-version='1' id='Header1'>
-<div id='header-inner'>
-<div><button class='toggle-navigationnbt' id='toggle-navigationnbt'><i class='fa fa-bars'></i></button></div>
-<a href='http://randideo.com/backup' style='display: block'>
-	
-<img alt='randideo' class='site-title' height='30px; ' id='Header1_ ' src='https://randideo.com/imgs/randideo_logo.jpg' style='display: block;padding-left:0px;padding-top:0px;' width='200px; '/>
-</a>
-</div>
-</div></div>
-</div>
-<div class='menu-containernbt menu-primarynbt' id='menu-primarynbt' role='navigation'>
-<ul class='menu-primary-items' id='menu-primary-items' role='menubar'>
-	<li><a href='http://randideo.com/about'>About</a></li>
-	<li><a href='http://randideo.com/comics'>Comics</a></li>	
-</ul>
-<ul class='social-media-iconsnbt'>
-	<li><a href="http://tinyletter.com/randideo" target='_blank'><i class='fa fa-envelope'></i></a></li>	
-</ul>
-</div>
+	<header class="site-header">
+ 
+
+
+<nav class="nav">
+  <div class="container">
+    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}<span>{{ site.title2 }}</span></a></h1>
+    <ul class="navbar">
+      <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">RSS</a></li>
+    </ul>
+  </div>
+</nav>
+
+
 </header>
