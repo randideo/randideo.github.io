@@ -340,7 +340,7 @@ padding: 1.25em 7.407% 0;
 padding: 1.25em 7.407% 0;
 }
 .site-title {
-left: 7.407%}
+right: 7.407%}
 }
 @media all and (min-width:50em) {
 .site-headernbt {
@@ -360,7 +360,7 @@ line-height: 0;
 height: 0;
 }
 .toggle-navigationnbt {
-
+display: none;
 }
 .title-infonbt {
 float: left;
@@ -483,30 +483,7 @@ li.focused {
 background: #000;
 }
 }
-@media all and (min-width:56.25em) {
-.site-headernbt {
-padding: 0 7.407%}
-.site-featurednbt {
-padding: 0 7.407%}
-}
-@media all and (min-width:62.5em) {
-.menu-primarynbt p {
-margin: 1.0625em 3em 0 -3em;
-display: inline-block;
-line-height: 2;
-color: #7c7d7f;
-border: none;
-padding: 0;
-float: left;
-}
-.site-title {
-float: left;
-}
-}
-@media all and (min-width:75em) {
-.menu-primary-items, .menu-unset {
-float: right;
-}
+
 .social-media-iconsnbt {
 display: inline-block;
 margin: 0;
