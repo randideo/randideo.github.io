@@ -340,7 +340,7 @@ padding: 1.25em 7.407% 0;
 padding: 1.25em 7.407% 0;
 }
 .site-title {
-right: 7.407%}
+left: 7.407%}
 }
 @media all and (min-width:50em) {
 .site-headernbt {
@@ -360,7 +360,7 @@ line-height: 0;
 height: 0;
 }
 .toggle-navigationnbt {
-display: none;
+
 }
 .title-infonbt {
 float: left;
