@@ -1022,6 +1022,31 @@ padding: 1.5em 14.333% 2.25em;
 padding: 1.5em 12.5% 2.25em;
 }
 }
+
+@media all and (min-width:56.25em) {
+.site-headernbt {
+padding: 0 7.407%}
+.site-featurednbt {
+padding: 0 7.407%}
+}
+@media all and (min-width:62.5em) {
+.menu-primarynbt p {
+margin: 1.0625em 3em 0 -3em;
+display: inline-block;
+line-height: 2;
+color: #7c7d7f;
+border: none;
+padding: 0;
+float: left;
+}
+.site-title {
+float: left;
+}
+}
+@media all and (min-width:75em) {
+.menu-primary-items, .menu-unset {
+float: right;
+}
 h2.date-header {
 margin: 10px 0px;
 display: none;
