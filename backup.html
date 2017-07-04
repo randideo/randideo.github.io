@@ -31,7 +31,9 @@ layout: default
 		 <a href="{{ post.url }}" style="color: #000; text-decoration: none;"><h1 class="entry-title">{{ post.title }}</h1></a>
 		  Posted {{ post.date | date: '%B %d, %Y' }} · <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>
   </header>
-	<div class="entry-content">{{ post.content }} </div> 
+	<div class="entry-content">{{ post.content }} {% if post.excerpt != post.content %}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+{% endif %}</div> 
 	 
 	 </div></div>
         {% endunless %}
