@@ -389,7 +389,7 @@ margin: 0;
 line-height: 0;
 }
 .menu-primary-items li, .menu-unset li {
-float: left;
+float: right;
 background: #000;
 position: relative;
 -webkit-transition: background .2s ease;
@@ -1037,7 +1037,7 @@ line-height: 2;
 color: #7c7d7f;
 border: none;
 padding: 0;
-float: left;
+float: right;
 }
 .site-title {
 float: left;
