@@ -36,7 +36,7 @@ Here we generate all the tags.
 {% endfor %}
 
 {% for tag in tags %}
-<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
   {% if post.tags contains tag %}
@@ -59,15 +59,12 @@ Here we generate all the tags.
 <style>
  .codinfox-category-list {
     padding-left: 1rem;
-    list-style: none;
-}
-.codinfox-category-list h3 {
-    font-size: 1rem;
-    margin-top: 0;
+    list-style: circle;
 }
 .codinfox-category-list li small {
     font-size: 75%;
     color: #999;
+  text-decoration: none;
 }
 .codinfox-category-list li a:hover {
     color: #6a9fb5;
@@ -75,6 +72,7 @@ Here we generate all the tags.
 }
 .codinfox-category-list li a:hover small {
     color: inherit;
+  text-decoration: none;
 }
 
 .codinfox-category-mark {
@@ -97,7 +95,6 @@ Here we generate all the tags.
     margin-right: .5rem;
     border-radius: 4px;
     color: #6a9fb5;
-    font-family: "PT Sans",Helvetica,Arial,sans-serif;
     font-size: 90%;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
