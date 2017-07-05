@@ -5,6 +5,7 @@ locale: en_US
 description: Words and doodles
 search: false
 url: http://randideo.com
+excerpt_separator: "<!-- more -->"
 
 #DISQUS
 comments: true
