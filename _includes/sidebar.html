@@ -11,8 +11,8 @@ Wife, mother, writer of words, doodler of doodles.
 	<div class='widget Label' data-version='1' id='Label1'>
 <h2 class='title'>Tags</h2>
 <div class='widget-content list-label-widget-content'>
-   {% for category in site.tags %}<ul>
-  <li style="list-style: none;"><a dir="ltr" style="text-decoration: none;" href="/tags/#{{ label | first }}"><i class="fa fa-tag" style="padding-right: 2px;" aria-hidden="true"></i> {{ category | first }}</a></li>
+   <ul>{% for category in site.tags %}
+  <li><a dir="ltr" href="/tags/#{{ label | first }}">{{ category | first }}</a></li>
 {% endfor %}
 	</ul></div>
 </div>
