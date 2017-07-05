@@ -45,12 +45,12 @@ hyphens: auto;
 .overflow-container {
 overflow: hidden;
 }
-.mainnbt {
+.main {
 margin: 0 auto;
 -webkit-transition: all .3s ease;
 transition: all .3s ease;
 }
-.mainnbt:after {
+.main:after {
 content: '';
 position: absolute;
 top: -12em;
@@ -320,7 +320,7 @@ background: #000000;
 z-index: 0;
 }
 
-.site-header.toggled+div .mainnbt:after, .site-header.toggled+div .sidebar-primary-container:after {
+.site-header.toggled+div .main:after, .site-header.toggled+div .sidebar-primary-container:after {
 bottom: 0;
 opacity: .4;
 }
@@ -477,7 +477,7 @@ color: #cccccc;
 margin-right: 0;
 }
 }
-.mainnbt, .sidebar-primary-container, .site-footernbt {
+.main, .sidebar-primary-container, .site-footer {
 padding: 1.5em 3.703%;
 }
 .site-footernbt h3 {
@@ -605,13 +605,13 @@ width: 20%;
 }
 }
 @media all and (min-width:37.5em) {
-.mainnbt, .sidebar-primary-container, .site-footernbt {
+.main, .sidebar-primary-container, .site-footer {
 padding: 1.5em 7.407%;
 }
 }
 @media all and (min-width:43.75em) {}
 @media all and (min-width:50em) {
-.mainnbt, .sidebar-primary-container, .site-footernbt {
+.main, .sidebar-primary-container, .site-footer {
 padding: 1.5em 11.11%;
 }
 .hentry {
@@ -622,7 +622,7 @@ padding:  6.333% 2.25em;
 }
 }
 @media all and (min-width:56.25em) {
-.mainnbt {
+.main {
 width: 55.55%;
 padding: 1.5em 0;
 float: left;
@@ -657,7 +657,7 @@ margin-right: .75em;
 }
 }
 @media all and (min-width:68.75em) {
-.mainnbt {
+.main {
 width: 59.253%;
 }
 .hentry {
