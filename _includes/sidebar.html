@@ -12,8 +12,7 @@ Wife, mother, writer of words, doodler of doodles.
 <h2 class='title'>Blog Tags</h2>
 <div class='widget-content list-label-widget-content'>
    {% for category in site.tags %}
-  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/tags/#{{ label | first }}">{{ category | first }}</a>
-  </li>
+  <li><a dir="ltr" href="/tags/#{{ label | first }}">{{ category | first }}</a></li>
 {% endfor %}
 </div>
 </div>
