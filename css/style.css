@@ -259,7 +259,7 @@ transition: color .2s ease;
 .toggle-navigation:hover {
 cursor: pointer;
 }
-.menu-primarynbt {
+.menu-primary {
 font-weight: bold;
 font-size: 17px;
 letter-spacing: 1px;
@@ -275,7 +275,7 @@ padding-top: 1.5em;
 text-align: center;
 z-index: -1;
 }
-.menu-primarynbt p {
+.menu-primary p {
 color: #000;
 display: inline-block;
 border-top: solid 2px #303338;
@@ -327,7 +327,7 @@ text-decoration: none;
 .social-media-iconsnbt li a:hover {
 color: #000;
 }
-.site-header.toggled .menu-primarynbt {
+.site-header.toggled .menu-primary {
 background: #000000;
 z-index: 0;
 }
@@ -376,7 +376,7 @@ position: static;
 line-height: 1;
 margin-right: .225em;
 }
-.menu-primarynbt {
+.menu-primary {
 position: static;
 max-width: none;
 min-height: 1px;
@@ -385,7 +385,7 @@ padding: 0;
 text-align: left;
 background: 0 0;
 }
-.menu-primarynbt p {
+.menu-primary p {
 display: none;
 }
 .menu-primary-items, .menu-unset {
@@ -494,7 +494,7 @@ padding: 0 7.407%}
 padding: 0 7.407%}
 }
 @media all and (min-width:62.5em) {
-.menu-primarynbt p {
+.menu-primary p {
 margin: 1.0625em 3em 0 -3em;
 display: inline-block;
 line-height: 2;
