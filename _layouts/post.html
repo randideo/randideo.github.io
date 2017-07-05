@@ -4,8 +4,8 @@ layout: default
 <div class='post-outer'>
 <div class='post hentry'>
    
-		 <h1 class="entry-title">{{ post.title }}</h1>
-		  Posted {{ post.date | date: '%B %d, %Y' }} · <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>
+		 <h1 class="entry-title">{{ page.title }}</h1>
+		  Posted {{ page.date | date: '%B %d, %Y' }} · <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>
 
   <section class="entry-content">{{ content }}
   </section>
