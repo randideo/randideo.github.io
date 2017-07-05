@@ -46,16 +46,16 @@ Wife, mother, writer of words, doodler of doodles.
 {% endunless %}
 {% endif %}
 {% endfor %}
-	<div class='widget Label' data-version='1' id='Label1'>
-<h2 class='title'>Categories</h2>
-<div class='widget-content list-label-widget-content'>
+	<div class="widget">
+<h2 class="title">Categories</h2>
+<div class="widget-content list-label-widget-content">
    <ul>{% for tag in tags %}
   <li><a dir="ltr" href="/tags/#{{ tag | slugify }}">{{ tag }}</a></li>
 {% endfor %}
 	</ul></div>
 </div>
     
-<div class='clear'></div>
+<div class="clear"></div>
   
   
 
