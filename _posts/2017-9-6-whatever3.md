@@ -4,7 +4,7 @@ title: Testing
 permalink: comics/whatever3
 thumbnail: http://randideo.com/imgs/blank.png
 category: Comics
-tags: [Crafts, Diary, Little Ones, Space, Diary, Grub, Illustration]
+tags: [Crafts, Little Ones, Space, Diary, Grub, Illustration]
 ---
 
 Blah boohicky dicky doo. Testing, testing...
