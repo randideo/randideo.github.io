@@ -6,7 +6,7 @@ Template Name  : randideo
 body#layout ul{list-style-type:none;list-style:none}
 body#layout ul li{list-style-type:none;list-style:none}
 body#layout #headerbwrap {height:auto;}
-body#layout .site-headernbt {margin: 0 0 0px;}
+body#layout .site-header {margin: 0 0 0px;}
 body#layout .site-featurednbt {margin: 0 0 0px;}
 body#layout #content {}
 body#layout #slider {display:none;}
@@ -204,7 +204,7 @@ color: #7c7d7f;
 a img {
 border: none;
 }
-.site-headernbt {
+.site-header {
 background: #000000;
 height: 4.6em;
 padding: 1.25em 3.703% 0;
@@ -323,17 +323,17 @@ text-decoration: none;
 .social-media-iconsnbt li a:hover {
 color: #000;
 }
-.site-headernbt.toggled .menu-primarynbt {
+.site-header.toggled .menu-primarynbt {
 background: #000000;
 z-index: 0;
 }
 
-.site-headernbt.toggled+div .mainnbt:after, .site-headernbt.toggled+div .sidebar-primary-container:after {
+.site-header.toggled+div .mainnbt:after, .site-header.toggled+div .sidebar-primary-container:after {
 bottom: 0;
 opacity: .4;
 }
 @media all and (min-width:37.5em) {
-.site-headernbt {
+.site-header {
 padding: 1.25em 7.407% 0;
 }
 .site-featurednbt {
@@ -343,7 +343,7 @@ padding: 1.25em 7.407% 0;
 right: 7.407%}
 }
 @media all and (min-width:50em) {
-.site-headernbt {
+.site-header {
 height: auto;
 min-height: 4.6em;
 padding: 0 11.11%}
@@ -351,7 +351,7 @@ padding: 0 11.11%}
 height: auto;
 min-height: 4.6em;
 padding: 0 11.11%}
-.site-headernbt:after {
+.site-header:after {
 content: ".";
 display: block;
 clear: both;
@@ -1024,7 +1024,7 @@ padding: 1.5em 12.5% 2.25em;
 }
 
 @media all and (min-width:56.25em) {
-.site-headernbt {
+.site-header {
 padding: 0 7.407%}
 .site-featurednbt {
 padding: 0 7.407%}
