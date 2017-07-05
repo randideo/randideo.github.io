@@ -720,7 +720,6 @@ transition: opacity .3s ease;
     }
     
 .sidebar-primary-container .widget {
-     background-image: url("imgs/whitebk.jpg");
 background: #fff;
 border-top: solid 0px #fff;
 font-size: 1em;
