@@ -241,7 +241,7 @@ position: absolute;
 opacity: 0;
 z-index: -1;
 }
-.toggle-navigationnbt {
+.toggle-navigation {
 color: #fff;
 font-size: 1.625em;
 line-height: 1.35;
@@ -252,7 +252,7 @@ border: none;
 -webkit-transition: color .2s ease;
 transition: color .2s ease;
 }
-.toggle-navigationnbt:hover {
+.toggle-navigation:hover {
 cursor: pointer;
 }
 .menu-primarynbt {
@@ -359,7 +359,7 @@ visibility: hidden;
 line-height: 0;
 height: 0;
 }
-.toggle-navigationnbt {
+.toggle-navigation {
 display: none;
 }
 .title-info {
