@@ -535,7 +535,7 @@ color: #7c7d7f;
 .entry-content {
 font-size: 1.1em;
 }
-.more-linknbt {
+.more-link {
 text-decoration: none;
 display: block;
 text-align: center;
@@ -547,10 +547,10 @@ margin: 1em 0 0.6em;
 -webkit-transition: background .2s ease;
 transition: background .2s ease;
 }
-.more-linknbt:link, .more-linknbt:visited {
+.more-link:link, .more-link:visited {
 color: #fff;
 }
-.more-linknbt:active, .more-linknbt:hover {
+.more-link:active, .more-link:hover {
 background: #cc0000;
 }
 .hentry-categories, .hentry-tags {
@@ -1086,11 +1086,11 @@ margin-bottom:5px;
 .reaction-buttons table, .reaction-buttons td{
 border:none !important;
 }
-.nbtfooteroptions a {
+.footeroptions a {
 text-decoration: none;
 color: #7C7D7F;
 }
-.nbtfooteroptions a:hover {
+.footeroptions a:hover {
 text-decoration: none;
 color: #000;
 }
