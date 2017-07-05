@@ -7,7 +7,6 @@ body#layout ul{list-style-type:none;list-style:none}
 body#layout ul li{list-style-type:none;list-style:none}
 body#layout #headerbwrap {height:auto;}
 body#layout .site-header {margin: 0 0 0px;}
-body#layout .site-featurednbt {margin: 0 0 0px;}
 body#layout #content {}
 body#layout #slider {display:none;}
 body#layout .side-widget {display:none;}
@@ -210,13 +209,6 @@ height: 4.6em;
 padding: 1.25em 3.703% 0;
 position: relative;
 }
-
-.site-featurednbt {
-background: #ffffff;
-height: 4.6em;
-padding: 1.25em 3.703% 0;
-position: relative;
-}
 .site-title {
 font-size: 1.625em;
 line-height: 1.85;
@@ -336,9 +328,6 @@ opacity: .4;
 .site-header {
 padding: 1.25em 7.407% 0;
 }
-.site-featurednbt {
-padding: 1.25em 7.407% 0;
-}
 .site-title {
 right: 7.407%}
 }
@@ -347,18 +336,6 @@ right: 7.407%}
 height: auto;
 min-height: 4.6em;
 padding: 0 11.11%}
-.site-featurednbt {
-height: auto;
-min-height: 4.6em;
-padding: 0 11.11%}
-.site-header:after {
-content: ".";
-display: block;
-clear: both;
-visibility: hidden;
-line-height: 0;
-height: 0;
-}
 .toggle-navigation {
 display: none;
 }
@@ -1026,9 +1003,7 @@ padding: 1.5em 12.5% 2.25em;
 @media all and (min-width:56.25em) {
 .site-header {
 padding: 0 7.407%}
-.site-featurednbt {
-padding: 0 7.407%}
-}
+
 @media all and (min-width:62.5em) {
 .menu-primary p {
 margin: 1.0625em 3em 0 -3em;
