@@ -1020,7 +1020,7 @@ float: left;
 }
 @media all and (min-width:75em) {
 .menu-primary-items, .menu-unset {
-float: right;
+float: left;
 }
 h2.date-header {
 margin: 10px 0px;
