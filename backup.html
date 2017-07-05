@@ -33,7 +33,7 @@ layout: default
 
 	<div class="entry-content">{{ post.content | split:"<!-- more -->" | first | strip_html | truncate:300 }}
 {% if post.content | size > 300 %}
-    <div align="right" class="jump-link">Read more</div>
+		<div align="right" class="jump-link"><a href="{{ post.url }}">Read more</a></div>
 {% endif %}</div> 
 	 
 	 </div></div>
