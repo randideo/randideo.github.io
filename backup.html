@@ -24,9 +24,8 @@ layout: default
 		  Posted {{ post.date | date: '%B %d, %Y' }} · <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>
   </header>
 
-	<div class="entry-content"> {{ post.excerpt }}	
-</div>  
-	 
+	<div class="entry-content"> {{ post.excerpt }}</div>  
+	  <div align="right" class="jump-link"><a href="{{ post.url }}">Read more »</a></div>
 	 </div></div>
         {% endfor %}
 	
