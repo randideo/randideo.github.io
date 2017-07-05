@@ -7,18 +7,16 @@
 Wife, mother, writer of words, doodler of doodles.
         </div></div>
     
-    <div class='widget HTML' data-version='1' id='HTML3'>
-       <h2 class='title'>Blog Tags</h2> 
-        <div class='widget-content list-label-widget-content'>
-    {% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+	
+	<div class='widget Label' data-version='1' id='Label1'>
+<h2 class='title'>Blog Tags</h2>
+<div class='widget-content list-label-widget-content'>
+   {% for category in site.tags %}
+  <li style='text-transform: capitalize; list-style-type: none;'><a style="text-decoration: none;" href="/tags/#{{ label | first }}">{{ category | first }}</a>
+  </li>
 {% endfor %}
-</div></div>
+</div>
+</div>
     
 <div class='clear'></div>
   
