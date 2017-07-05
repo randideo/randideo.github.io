@@ -40,7 +40,7 @@ Here we generate all the tags.
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
   {% if post.tags contains tag %}
-     <li><a href="{{ post.url }}">{{ post.title }}</a> <time style="color: #666;">{{ post.date | date:"%d %b %Y" }}</time></li>
+     <li><a href="{{ post.url }}">{{ post.title }}</a> <small><time>{{ post.date | date:"%d %b %Y" }}</time></small></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -59,7 +59,7 @@ Here we generate all the tags.
   text-decoration: none;
 }
 .codinfox-category-list li a:hover {
-    color: #6a9fb5;
+    color: #dd3300;
     text-decoration: none;
 }
 .codinfox-category-list li a:hover small {
