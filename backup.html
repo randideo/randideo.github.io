@@ -11,7 +11,7 @@ layout: default
 	<li style="float: left; padding: 5px; width: 33.33333333333333%;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
 	{% endfor %}</ul>
 			 <div style="clear: both;"></div>
-			 <div align="right" class="jump-link"><a href="http://randideo.com/comics">View more »</a></div>
+			 <div align="right" class="jump-link"><a href="http://randideo.com/comics">View all »</a></div>
 		 </div>
 	 </div>
 
@@ -33,7 +33,7 @@ layout: default
 
 	<div class="entry-content">{{ post.content | split:"<!-- more -->" | first | strip_html | truncate:300 }}
 {% if post.content | size > 300 %}
-		<div align="right" class="jump-link"><a href="{{ post.url }}">Read more</a></div>
+		<div align="right" class="jump-link"><a href="{{ post.url }}">Read more »</a></div>
 {% endif %}</div> 
 	 
 	 </div></div>
