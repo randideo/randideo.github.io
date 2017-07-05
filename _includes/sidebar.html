@@ -12,7 +12,7 @@ Wife, mother, writer of words, doodler of doodles.
 <h2 class='title'>Categories</h2>
 <div class='widget-content list-label-widget-content'>
    <ul>{% for category in site.tags %}
-  <li><a dir="ltr" href="/tags/#{{ label | first }}">{{ category | first }}</a></li>
+  <li><a dir="ltr" href="/tags/#{{ tag | slugify }}">{{ tag }}</a></li>
 {% endfor %}
 	</ul></div>
 </div>
