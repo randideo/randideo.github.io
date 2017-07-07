@@ -20,7 +20,7 @@ margin:0;
 padding:0;
 }
 
-.comicthumb img {
+li.comicthumb {
     float: left; 
     padding: 5px; 
     width: 33.33333333333333%;"
