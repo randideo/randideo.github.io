@@ -21,7 +21,7 @@ padding:0;
 }
 
 .comicthumb {
-list-style: none; 
+list-style: none outside none;
 margin: 0em;
 }
 .comicthumb li {
