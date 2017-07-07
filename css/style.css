@@ -20,17 +20,6 @@ margin:0;
 padding:0;
 }
 
-.comicthumb {
-list-style: none outside none;
-margin: 0em;
-}
-.comicthumb li {
-    list-style: none outside none;
-    float: left; 
-    padding: 5px; 
-    width: 50%%;"
-}
-
 *, :after, :before {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
