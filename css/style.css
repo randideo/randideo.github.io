@@ -742,6 +742,16 @@ padding:  6.333% 2.25em;
 }
 }
 @media all and (min-width:62.5em) {
+.comicthumb {
+list-style: none outside none;
+margin: 0em;
+}
+.comicthumb li {
+    list-style: none outside none;
+    float: left; 
+    padding: 5px; 
+    width: 33.333333333%;"
+} 
 .hentry {
 padding-top: 3em;
 }
