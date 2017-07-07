@@ -348,7 +348,7 @@ bottom: 0;
 opacity: .4;
 }
 
-@media all and (max-width:37.5em) {
+@media only screen and (max-width:37.5em) {
 .comicthumb {
 list-style: none outside none;
 margin: 0em;
@@ -357,7 +357,7 @@ margin: 0em;
     list-style: none outside none;
     float: left; 
     padding: 5px; 
-    width: 50%;"
+    width: 100%;"
 }   
 
 @media all and (min-width:37.5em) {
