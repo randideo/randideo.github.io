@@ -346,21 +346,9 @@ z-index: 0;
 .site-header.toggled+div .main:after, .site-header.toggled+div .sidebar-primary-container:after {
 bottom: 0;
 opacity: .4;
-}
+} 
 
-@media all and (min-width:1em) {
-.comicthumb {
-list-style: none outside none;
-margin: 0em;
-}
-.comicthumb li {
-    list-style: none outside none;
-    float: left; 
-    padding: 5px; 
-    width: 100%;"
-}   
-
-@media all and (min-width:37.5em) {
+@media all and (min-width:30em) {
 .comicthumb {
 list-style: none outside none;
 margin: 0em;
