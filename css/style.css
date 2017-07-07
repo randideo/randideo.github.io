@@ -20,11 +20,16 @@ margin:0;
 padding:0;
 }
 
-li.comicthumb {
+.comicthumb {
+list-style: none; 
+margin: 0em;
+}
+.comicthumb li {
     float: left; 
     padding: 5px; 
     width: 33.33333333333333%;"
 }
+
 *, :after, :before {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
