@@ -16,7 +16,7 @@ title: Blog
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li><time style="font-size: 1.2em;">{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}" style="font-size: 1.2em;">{{ post.title }}</a> 
+      <li><time style="font-size: 1.2em;">{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}" style="font-size: 1.2em;">{{ post.title }}</a><br>
         {% for tags in post.tags %}
         <a style="color: #efefef;" href="#{{ tag | slugify }}" class="codinfox-tag-mark"><i class="fa fa-tag" style="padding-right: 2px;" aria-hidden="true"></i>{{ tags }}</a> {% endfor %}
           </li>
