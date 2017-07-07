@@ -339,6 +339,17 @@ bottom: 0;
 opacity: .4;
 }
 @media all and (min-width:37.5em) {
+.comicthumb {
+list-style: none outside none;
+margin: 0em;
+}
+.comicthumb li {
+    list-style: none outside none;
+    float: left; 
+    padding: 5px; 
+    width: 50%;"
+}    
+
 .site-header {
 padding: 1.25em 7.407% 0;
 }
