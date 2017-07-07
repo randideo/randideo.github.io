@@ -20,16 +20,7 @@ margin:0;
 padding:0;
 }
 
-.comicthumb {
-list-style: none outside none;
-margin: 0em;
-}
-.comicthumb li {
-    list-style: none outside none;
-    float: left; 
-    padding: 5px; 
-    width: 33.33333333333333%;"
-}
+
 
 *, :after, :before {
 -moz-box-sizing: border-box;
@@ -519,6 +510,16 @@ float: left;
 }
 }
 @media all and (min-width:75em) {
+.comicthumb {
+list-style: none outside none;
+margin: 0em;
+}
+.comicthumb li {
+    list-style: none outside none;
+    float: left; 
+    padding: 5px; 
+    width: 33.33333333333333%;"
+}
 .menu-primary-items, .menu-unset {
 float: left;
 }
