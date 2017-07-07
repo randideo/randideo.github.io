@@ -11,41 +11,6 @@ layout: default
   </section>
 	<div>{% for tags in post.tags %}
         <a style="color: #efefef;" href="#{{ tag | slugify }}" class="codinfox-tag-mark"><i class="fa fa-tag" style="padding-right: 2px;" aria-hidden="true"></i>{{ tags }}</a> {% endfor %}
- 
-
-
-<style>
- .codinfox-category-list {
-    padding-left: 1rem;
-    
-}
-.codinfox-category-list li small {
-    font-size: 80%;
-    color: #000;
-  text-decoration: none;
-}
-  
-
-.codinfox-category-list li a:hover {
-    color: #dd3300;
-    text-decoration: none;
-}
-.codinfox-category-list li a:hover small {
-    color: inherit;
-  text-decoration: none;
-}
-
-.codinfox-tag-mark{
-    display: inline-block;
-    background: #000;
-    margin-top: 8px;
-    padding: .2rem .5rem .2rem .5rem;
-    border-radius: 4px;
-    color: #fff;
-   text-decoration: none;
-  font-size: 1em;
-}
-</style>
 	</div>
 </div></div>
 
