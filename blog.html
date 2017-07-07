@@ -16,6 +16,6 @@ title: Blog
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a> {{ post.tags | sort | join: ", " }}</li>
+      <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a> <a style="color: #efefef;" href="#{{ tag | slugify }}" class="codinfox-tag-mark"><i class="fa fa-tag" style="padding-right: 2px;" aria-hidden="true"></i>{{ post.tags | sort | join: ", " }}</a></li>
   {% endfor %}
   </ul>
