@@ -360,6 +360,16 @@ padding: 1.25em 7.407% 0;
 right: 7.407%}
 }
 @media all and (min-width:50em) {
+.comicthumb {
+list-style: none outside none;
+margin: 0em;
+}
+.comicthumb li {
+    list-style: none outside none;
+    float: left; 
+    padding: 5px; 
+    width: 50%;"
+} 
 .site-header {
 height: auto;
 min-height: 4.6em;
@@ -501,12 +511,32 @@ background: #000;
 }
 }
 @media all and (min-width:56.25em) {
+.comicthumb {
+list-style: none outside none;
+margin: 0em;
+}
+.comicthumb li {
+    list-style: none outside none;
+    float: left; 
+    padding: 5px; 
+    width: 50%;"
+} 
 .site-header {
 padding: 0 7.407%}
 .site-featurednbt {
 padding: 0 7.407%}
 }
 @media all and (min-width:62.5em) {
+.comicthumb {
+list-style: none outside none;
+margin: 0em;
+}
+.comicthumb li {
+    list-style: none outside none;
+    float: left; 
+    padding: 5px; 
+    width: 50%;"
+} 
 .menu-primary p {
 margin: 1.0625em 3em 0 -3em;
 display: inline-block;
