@@ -6,7 +6,7 @@ title:    Comics
   <h3>This year's comics</h3>
   {%for post in site.categories.Comics %}
     {% unless post.next %}
-      <ul style="list-style: none; margin: 0em;">
+      <ul class="comicthumb">
     {% else %}
       {% capture year %}{{ post.date | date: '%Y' }} - {% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }} - {% endcapture %}
@@ -16,10 +16,10 @@ title:    Comics
 
 
         <h3>{{ post.date | date: '%Y' }}</h3>
-        <ul style="list-style: none; margin: 0em;">
+        <ul class="comicthumb">
       {% endif %}
     {% endunless %}
-      <li style="float: left; padding: 5px; width: 33.33333333333333%;">  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
+      <li>  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
   {% endfor %}
   </ul>
 
