@@ -4,7 +4,7 @@
 <meta content="width=device-width" name="viewport">
 <title>{{ site.title }}{% if page.title %} &#187; {{ page.title }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme.description }}{% endif %}">
-<link href="https://{{ site.baseurl }}/css/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="{{ site.baseurl }}/css/style.css" media="all" rel="stylesheet" type="text/css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Vollkorn|Lusitana:400,700" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript">
@@ -26,7 +26,7 @@
 <div class="headersec section" id="headersec"><div class="widget Header" data-version="1" id="Header1">
 <div id="header-inner">
 <div><button class="toggle-navigation" id="toggle-navigation"><i class='fa fa-bars'></i></button></div>
-<a href="https://{{ site.baseurl }}" style="display: block">
+<a href="{{ site.baseurl }}" style="display: block">
 	
 <img alt="randideo" class="site-title" height="30px;" id="Header1_" src="https://t{{ site.baseurl }}/imgs/randideo_logo.jpg" style="display: block;padding-left:0px;padding-top:0px;" width="200px;">
 </a>
@@ -35,8 +35,8 @@
 </div>
 <div class="menu-container menu-primary" id="menu-primary" role="navigation">
 <ul class="menu-primary-items" id="menu-primary-items" role="menubar">
-<li><a href="https://{{ site.baseurl }}/comics">Comics</a></li>
-	<li><a href="https://{{ site.baseurl }}/blog">Blog</a></li>
+<li><a href="{{ site.baseurl }}/comics">Comics</a></li>
+	<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
 </ul>
 
 <ul class="social-media-iconsnbt">
