@@ -2,7 +2,7 @@
 layout: comic
 title: Testing
 permalink: comics/whatever3
-thumbnail: /imgs/blank.png
+thumbnail: https://randideo.github.io/imgs/blank.png
 category: Comics
 tags: [Crafts, Little Ones, Space, Grub, Illustration]
 ---
