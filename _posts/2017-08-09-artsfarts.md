@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Artsy Fartsy
 permalink: blog/artsfarts
 thumbnail: https://lh3.googleusercontent.com/Ex1pSD4HEtVXcVNy9uxt2Z8IBREfKmtAprBJX0YMXny8A7y64fRDuKtzTAMOPSFd2YhrMyvmy3IHh8xe=s220-rw
