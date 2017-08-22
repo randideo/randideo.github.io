@@ -8,7 +8,7 @@ baseurl: https://test.randideo.com
 excerpt_separator: "<!-- more -->"
 
 #DISQUS
-comments: false
+comments: true
 
 # Google Drive CDN url
 
