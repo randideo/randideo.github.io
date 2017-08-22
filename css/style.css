@@ -669,7 +669,7 @@ color: #fff;
 background: #cc0000;
 }
 .hentry-categories, .hentry-tags {
-color: #7c7d7f;
+color: #000;
 }
 .hentry-categories p, .hentry-tags p {
 margin: .75em 0 0;
@@ -687,7 +687,7 @@ line-height: 1.7;
 margin-left: .75em;
 }
 .hentry-categories a:link, .hentry-categories a:visited, .hentry-tags a:link, .hentry-tags a:visited {
-color: #7c7d7f;
+color: #000;
 }
 .hentry-categories a:active, .hentry-categories a:hover, .hentry-tags a:active, .hentry-tags a:hover {
 color: #000;
