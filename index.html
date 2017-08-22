@@ -18,10 +18,9 @@ layout: default
 	
 
 
-{% if post.tags.size > 0 %}
-  <i class="fa fa-folder-open">
-  {{ post.tags | sort | join: ", " }}
-{% endif %}
+
+	<i class="fa fa-folder-open"></i>{{ post.tags | sort | join: ", " }}
+
 
 
 	 </div></div>
