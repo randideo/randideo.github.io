@@ -19,7 +19,11 @@ layout: default
 
 
 <div class="hentry-categories">
-  <p><i class="fa fa-folder-open"></i>{{ post.tags | sort | join: ", " }}</p>
+
+  <p><i class="fa fa-folder-open"></i>{% for tag in posts.tags %}
+<a dir="ltr" href="/tags/#{{ tag | slugify }}">{{tag}}</a>
+{% if forloop.last == false %},{% endif %}
+{% endfor %}</p>
 </div>
 
 
