@@ -17,9 +17,9 @@ layout: default
 	 {% endif %}
 	
 
-  <p><i class="fa fa-folder-open">
+  <p>
 {% if post.tags.size > 0 %}
-  Tag{% if post.tags.size > 1 %}s{% endif %}:
+  <i class="fa fa-folder-open">
   {{ post.tags | sort | join: ", " }}
 {% endif %}
 </p>
