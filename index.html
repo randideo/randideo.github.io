@@ -17,12 +17,12 @@ layout: default
 	 {% endif %}
 	
 
-  <p>
+
 {% if post.tags.size > 0 %}
   <i class="fa fa-folder-open">
   {{ post.tags | sort | join: ", " }}
 {% endif %}
-</p>
+
 
 	 </div></div>
         {% endfor %}
