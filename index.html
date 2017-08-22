@@ -16,14 +16,13 @@ layout: default
 	  <div align="right" class="jump-link"><a href="{{ post.url }}">Read more »</a></div>
 	 {% endif %}
 	
-<div class="hentry-categories">
+
   <p><i class="fa fa-folder-open">
 {% if post.tags.size > 0 %}
   Tag{% if post.tags.size > 1 %}s{% endif %}:
   {{ post.tags | sort | join: ", " }}
 {% endif %}
 </p>
-</div>
 
 	 </div></div>
         {% endfor %}
