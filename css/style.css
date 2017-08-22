@@ -681,7 +681,7 @@ margin-left: -1.5em;
 .hentry-categories a, .hentry-tags a {
 text-decoration: none;
 text-transform: uppercase;
-letter-spacing: .1em;
+letter-spacing: .01em;
 font-size: .813em;
 line-height: 1.7;
 margin-left: .75em;
