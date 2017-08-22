@@ -2,19 +2,8 @@
 layout: default
 ---
 
-	 <div class="post hentry">
-		 <div class="entry-content">
-			 <h2 style="padding-bottom: 10px;">New Comics</h2>
-			
-<ul class="comicthumb">
-	{% for post in site.categories.Comics limit: 12 %}
-	<li>  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /></a></li>
-	{% endfor %}</ul>
-			 <div style="clear: both;"></div>
-			 
-		 </div>
-	 </div>
- {% for post in site.categories.Blog limit: 5 %}
+	
+ {% for post in site.posts limit: 5 %}
  <div class='post-outer'>
 <div class='post hentry'>
 	 <header>
