@@ -19,7 +19,7 @@ layout: default
 
 
 <div class="hentry-categories">
-  <p><i class="fa fa-folder-open"></i><a dir="ltr" href="/tags/#{{ tag | slugify }}">{{ post.tags | sort | join: ", " }}</a></p>
+  <p><i class="fa fa-folder-open"></i>{{ <a dir="ltr" href="/tags/#{{ tag | slugify }}">post.tags</a> | sort | join: ", " }}</p>
 </div>
 
 
