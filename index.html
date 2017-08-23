@@ -3,9 +3,9 @@ layout: default
 ---
 
 	
- {% for post in site.posts limit: 5 %}
- <div class='post-outer'>
-<div class='post hentry'>
+ {%- for post in site.posts limit: 5 -%}
+ <div class="post-outer">
+<div class="post hentry">
 	 <header>
 		 <a href="{{ post.url }}" style="color: #000; text-decoration: none;"><h1 class="entry-title">{{ post.title }}</h1></a>
 		  Posted {{ post.date | date: '%A, %B %d, %Y' }} {% if site.comments %}· <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="comments-count">Comments Loading...</a>{% endif %}
@@ -26,9 +26,6 @@ layout: default
 	 
 {% endfor %}
 	</div></p>
-
-
-
 	 </div></div>
         {% endfor %}
 
