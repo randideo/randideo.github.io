@@ -22,7 +22,7 @@ layout: default
 <p>
  <i class="fa fa-folder-open"></i>{% for tag in post.tags %}
 <a href="/tags/#{{ tag | slugify }}">{{tag}}</a>
-	{{ not loop.last ? "," }}
+ {%- if forloop.last == false -%},{% endif %}
 	 
 {% endfor %}
 	</div></p>
