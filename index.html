@@ -31,7 +31,6 @@ layout: default
 
 <!-- Pagination links -->
 <div class="blog-pager" id="blog-pager">
-	 <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   <div class='mobile-link-button' id='blog-pager-newer-link'>
 	{% if paginator.next_page %}
 	  <a href="{{ paginator.next_page_path }}" class="next">Next</a></div>
