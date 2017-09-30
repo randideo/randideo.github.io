@@ -32,15 +32,18 @@ layout: default
 <!-- Pagination links -->
 <div class="blog-pager" id="blog-pager">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+	  <div class='mobile-link-button' id='blog-pager-older-link'>
+		  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a></div>
   {% else %}
-    <span class="previous">Previous</span>
+     <div class='mobile-link-button' id='blog-pager-older-link'> <span class="previous">Previous</span><div>
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  <div class='mobile-link-button' id='blog-pager-newer-link'>
+	{% if paginator.next_page %}
+	  <a href="{{ paginator.next_page_path }}" class="next">Next</a></div>
   {% else %}
-    <span class="next ">Next</span>
+	<div class='mobile-link-button' id='blog-pager-newer-link'>
+		<span class="next ">Next</span></div>
   {% endif %}
 </div>
 
