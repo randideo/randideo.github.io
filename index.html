@@ -31,8 +31,10 @@ layout: default
 
 <!-- Pagination links -->
 <div class="blog-pager" id="blog-pager">
+	
   {% if paginator.previous_page %}
-    <a class="blog-pager-older-link" href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+	<div class='mobile-link-button' id='blog-pager-newer-link'>
+    <a class="blog-pager-older-link" href="{{ paginator.previous_page_path }}" class="previous">&amp;lsaquo; Previous</a></div>
   {% else %}
     <span class="previous"></span>
   {% endif %}
